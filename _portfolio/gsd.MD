@@ -1,9 +1,9 @@
 ---
 title: "RE:Cover"
-excerpt: "This custom electric vehicle can reach speeds of up 30 MPH and has a range of over 50 miles!"
+excerpt: "Proposed use of a site with an ADU in East Boston that connects a modern community to its past spirit"
 header:
-  image: /assets/img/Cyber-Scooter-Banner.jpg
-  teaser: /assets/img/time.png
+  image: /assets/img/time.png
+  teaser: /assets/img/revisedparti.png
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
     image_path: assets/img/Cyber-Scooter-1.jpg
