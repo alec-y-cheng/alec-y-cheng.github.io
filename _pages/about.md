@@ -6,7 +6,7 @@ title: "About Alec"
 
 ## Education
 
-Alec believes in the value of a multidisciplinary education
+Alec believes in the value of a multidisciplinary education experience to build the character and knowledge needed that to perform well in fields that necessarily rely on a deep understanding of a breadth of topics
 
 * Vanderbilt University, Class of '24
   * BS Cognitive Studies
