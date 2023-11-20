@@ -6,22 +6,22 @@ title: "About Alec"
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Alec believes in the value of a multidisciplinary education
 
 * Vanderbilt University, Class of '24
   * BS Cognitive Studies
   * BS Architecture and the Built Environment
 * Canyon Crest Academy, Class of '21
 
-## Technical Skills
+## Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+A diverse and practical skillset motivated by a passion for graphic design, 3D modeling, and geography 
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+* QGIS
+* Illustrator
+* Photoshop
+* Blender
+* Rhino
 
 ##  Activities
 
