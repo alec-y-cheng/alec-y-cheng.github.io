@@ -1,6 +1,6 @@
 ---
 
-title: "About Alec Cheng"
+tite: "About Alec Cheng"
 
 ---
 
@@ -10,7 +10,7 @@ David prides himself on his diverse skill set. His most prominent fields of expe
 
 * University of Virginia
   * BS Mathematics
-  * BS Biomedical Engineering
+  * BS Biomedical Engineering\
 * Vanderbilt University
   * PhD Biomedical Engineering
 
