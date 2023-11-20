@@ -1,10 +1,10 @@
 ---
-title: "Example Web Page"
-layout: splash
+title: "Personal Portfolio"
+layout: single
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/Home-Banner-Image.jpeg
+  overlay_image: /assets/img/blackmoneyshot.png
   actions:
     - label: "My Projects"
       url: "/portfolio/"
