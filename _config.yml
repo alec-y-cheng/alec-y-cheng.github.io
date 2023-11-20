@@ -207,9 +207,10 @@ defaults:
       path: "_portfolio"
       type: portfolio
     values:
-      layout: wide
+      layout: single
       author_profile: false
-      share: true
+      share: false
+      class: wide
 
 
 # Sass/SCSS
