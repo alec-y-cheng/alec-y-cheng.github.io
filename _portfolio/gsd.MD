@@ -3,8 +3,8 @@ title: "RE:Cover"
 excerpt: "Proposed use of a site with an ADU in East Boston that connects a modern community to its past spirit"
 header:
   image: /assets/img/time.png
-  title: "East Boston"
   teaser: /assets/img/revisedparti.png
+  title: "East Boston"
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
     image_path: assets/img/Cyber-Scooter-1.jpg
