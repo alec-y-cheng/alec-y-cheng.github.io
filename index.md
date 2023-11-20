@@ -18,7 +18,8 @@ feature_row:
     alt: "American House Typology"
     title: "Graphic Design"
     excerpt: "Personal and professional work that integrates a variety of design tools and processes"
-  - image_path: assets/img/Zidex-Thumbnail.jpg
+    btn_label: "My Projects"
+  - image_path: assets/img/3clusterdata.jpeg
     alt: "Map"
     title: "Maps"
     excerpt: "Cool ways to visualize data!"
