@@ -4,7 +4,7 @@ excerpt: "Proposed use of a site with an ADU in East Boston that connects a mode
 header:
   image: /assets/img/time.png
   teaser: /assets/img/revisedparti.png
-  title: "East Boston"
+  caption: "RE:Cover final model"
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
     image_path: assets/img/Cyber-Scooter-1.jpg
