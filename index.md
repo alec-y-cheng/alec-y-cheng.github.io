@@ -10,17 +10,18 @@ header:
       url: "/portfolio/"
 excerpt: "Alec is a student with a passion for design, history, and maps! He wants to pursue a career in architecture and urban design. Check out some of his projects!"
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
+  - image_path: assets/img/IMG_0567.jpg
+    alt: "GSD Iteration Model"
+    title: "Architecture"
+    excerpt: "Sketches, line drawings, and projects"
+  - image_path: assets/img/houses.png
+    alt: "American House Typology"
+    title: "Graphic Design"
+    excerpt: "Personal and professional work that integrates a variety of design tools and processes"
   - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+    alt: "Map"
+    title: "Maps"
+    excerpt: "Cool ways to visualize data!"
 ---
 
 {% include feature_row %}
