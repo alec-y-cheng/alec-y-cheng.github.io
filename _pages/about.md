@@ -27,4 +27,4 @@ A diverse and practical skillset motivated by a passion for graphic design, 3D m
 
 Alec loves cubing!
 
-<img src="/assets/img/IMG_2597.jpg" alt="David Florian" style="width:200px;"/>
+<img src="/assets/img/IMG_2597.jpg" alt="Alec Cheng" style="width:200px;"/>
