@@ -17,6 +17,6 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-Up until recently I rode a Gotrax E-Scooter to work every day. The scooter retailed for $300, but it quickly paid for itself after I was able to forgo gas and a parking spot at work. However, after about a year and a half of driving the scooter daily the battery started to lose charge quickly and there were a couple other mechanical issues that forced me to stop riding the scooter. Instead of purchasing a new scooter, I decided to go the DIY route to build a one-off scooter that fits my needs.
+Over a period of three weeks at Harvard's GSD, I was tasked to analyze a small lot in East Boston and propose a redesign for its use. The existing structure was originally an inexpensive shoe store built during the Great Depression by an Italian immigrant family who owned the lot, the descendants of whom have turned this historical relic into a clubhouse and social gathering space. A windowless, austere facade on the outside revealed a vibrant interior on the inside. It was an abrupt break from the triple-decker houses of Boston, yet its startling exterior did not detract from its importance to the community. 
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
