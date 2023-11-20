@@ -101,7 +101,7 @@ author:
   bio              : "A student with an interest in architecture and urban planning "
   location         : "Nashville, TN"
   links:
-    - label: "  Resume"
+    - label: "   Resume"
       icon: "fas fa-file"
       url: "https://github.com/DrD-Flo"
     - label: " LinkedIn"
