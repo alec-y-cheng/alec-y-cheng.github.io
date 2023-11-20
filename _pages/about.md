@@ -27,4 +27,4 @@ David can operate a number of different computer controlled (CNC) fabrication to
 
 Alec loves cubing!
 
-<img src="/assets/img/me!.jpeg" alt="David Florian" style="width:200px;"/>
+<img src="/assets/img/IMG_2597.jpg" alt="David Florian" style="width:200px;"/>
