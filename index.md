@@ -14,7 +14,7 @@ feature_row:
     alt: "GSD Iteration Model"
     title: "Architecture"
     excerpt: "Sketches, line drawings, and projects"
-  - image_path: assets/img/houses.png
+  - image_path: assets/img/housesreadjusted.png
     alt: "American House Typology"
     title: "Graphic Design"
     excerpt: "Personal and professional work that integrates a variety of design tools and processes"
