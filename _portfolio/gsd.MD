@@ -3,7 +3,7 @@ title: "RE:Cover"
 excerpt: "This custom electric vehicle can reach speeds of up 30 MPH and has a range of over 50 miles!"
 header:
   image: /assets/img/Cyber-Scooter-Banner.jpg
-  teaser: /assets/img/Cyber-Scooter-TH.jpg
+  teaser: /assets/img/time.png
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
     image_path: assets/img/Cyber-Scooter-1.jpg
