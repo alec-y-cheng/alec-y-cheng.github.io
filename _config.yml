@@ -102,10 +102,10 @@ author:
   location         : "Nashville, TN"
   links:
     - label: "Resume"
-      icon: "fab fa-fw fa-github"
+      icon: "fas fa-file"
       url: "https://github.com/DrD-Flo"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-instagram"
+      icon: "<fab fa-linkedin"
       url: "https://www.linkedin.com/in/alec-cheng-20bb0b227/"
 
 
