@@ -210,8 +210,6 @@ defaults:
       layout: single
       author_profile: false
       share: false
-      classes: wide
-{: .text-center}
 
 
 # Sass/SCSS
