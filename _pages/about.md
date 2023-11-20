@@ -1,6 +1,6 @@
 ---
 
-title: "About Alec Cheng"
+title: "About Alec"
 
 ---
 
@@ -8,11 +8,10 @@ title: "About Alec Cheng"
 
 David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
 
-* Vanderbilt University, ## Class of '24
+* Vanderbilt University, Class of '24
   * BS Cognitive Studies
-  * BS Architecture and the Built Environment\
-* Canyon Crest Academy, ## Class of '21
-  * PhD Biomedical Engineering
+  * BS Architecture and the Built Environment
+* Canyon Crest Academy, Class of '21
 
 ## Technical Skills
 
