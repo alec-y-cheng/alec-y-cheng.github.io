@@ -1,6 +1,6 @@
 ---
 
-tite: "About Alec Cheng"
+"About Alec Cheng"
 
 ---
 
