@@ -26,14 +26,14 @@ gallery:
     alt: "placeholder image 6"
 
 gallery:
-  - url: /assets/img/Slide-2.png
-    image_path: assets/img/Slide-2.png
+  - url: /assets/img/IMG_0581.jpeg
+    image_path: assets/img/IMG_0581.jpeg
     alt: "placeholder image 1"
-  - url: /assets/img/Slide-3.png
-    image_path: assets/img/Slide-3.png
+  - url: /assets/img/IMG_0729.jpeg
+    image_path: assets/img/IMG_0729.jpeg
     alt: "placeholder image 2"
-  - url: /assets/img/Slide-4.png
-    image_path: assets/img/Slide-4.png
+  - url: /assets/img/IMG_0567.jpg
+    image_path: assets/img/IMG_0567.jpg
     alt: "placeholder image 3"
   - url: /assets/img/coolestgable.png
     image_path: assets/coolestgable.png
