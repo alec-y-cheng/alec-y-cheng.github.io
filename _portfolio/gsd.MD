@@ -53,7 +53,6 @@ Over a period of three weeks at Harvard's GSD, I was tasked to analyze a small l
 
 Throughout the ideation and design process, I experimented with themes of symmetry, modularity, and intersecting textures, in addition to perpetuating the site's cultural significance through its design. I believed that the existing structure was too established and locally important to be demolished, and that the final design should elevate the site's past and program.
 
-
 {% include gallery id="gallery2" caption="Iteration and provocation models for the new design" %}
 
-
+The final design was called RE:Cover, an imagined building that preserves the existing site's program and legacy, also expands upon it to suit modern demands. It remains as a community center and social gathering clubhouse, but with an open air pavillion that extends to the back of the lot for outdoor activities and performances. The asymmetrical limbs of the pavillion symbolize the deviating paths of time, one which represents its past, and the other representing the changing urban landscape of modern Boston. Finally, the entire structure is placed under a fine metal mesh scaffolding from which the silhouette of the original structure can faintly be seen from the street. RE:Cover emphasizes its underlying historical form by masking it.
