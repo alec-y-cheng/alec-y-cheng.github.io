@@ -55,11 +55,11 @@ gallery3:
   - url: /assets/img/grassyFinal.png
     image_path: assets/img/grassyFinal.png
     alt: "placeholder image 3"
-  - url: /assets/img/plansectiondiagram.png
-    image_path: assets/img/plansectiondiagram.png
+  - url: /assets/img/plansectiondiagram.jpg
+    image_path: assets/img/plansectiondiagram.jpg
     alt: "placeholder image 4"
-  - url: /assets/img/plansectiondiagram2.png
-    image_path: assets/img/plansectiondiagram2.png
+  - url: /assets/img/plansectiondiagram2.jpg
+    image_path: assets/img/plansectiondiagram2.jpg
     alt: "placeholder image 5"
   - url: /assets/img/planfinal.png
     image_path: assets/img/planfinal.png
