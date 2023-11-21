@@ -2,9 +2,9 @@
 title: "Sketches"
 excerpt: "Notebook sketches of my favorite places"
 header:
-
-  teaser: /assets/img/revisedparti.png
-  caption: "RE:Cover final model"
+  image: /assets/img/broadwayRender.png
+  teaser: /assets/img/Sketches 3.jpg
+  caption: "Lower Broadway in Nashville"
 gallery:
   - url: /assets/img/Sketches.png
     image_path: assets/img/Sketches.png
