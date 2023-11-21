@@ -3,16 +3,14 @@
 title: "About Alec"
 
 ---
-
-<p style="font-size: 50px;">
     
 ## Education
 
 Alec believes in the value of a multidisciplinary education experience to build the character and knowledge needed to excel in fields that necessarily rely on a deep understanding of a breadth of topics.
 
-* Vanderbilt University, Class of '24
+* Vanderbilt University, Class of '24 <p style="font-size: 12px;">
   * BS Cognitive Studies
-  * BS Architecture and the Built Environment
+  * BS Architecture and the Built Environment <p style="font-size: 16px;">
 * Canyon Crest Academy, Class of '21
 
 ## Skills
