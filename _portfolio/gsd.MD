@@ -25,8 +25,6 @@ gallery:
     image_path: assets/img/texture.png
     alt: "placeholder image 6"
 
-{% include gallery id="gallery2" %}
-
 gallery2:
   - url: /assets/img/IMG_0581.jpeg
     image_path: assets/img/IMG_0581.jpeg
@@ -54,6 +52,7 @@ Over a period of three weeks at Harvard's GSD, I was tasked to analyze a small l
 
 Throughout the ideation and design process, I experimented with themes of symmetry, modularity, and intersecting textures, in addition to perpetuating the site's cultural significance through its design. I believed that the existing structure was too established and locally important to be demolished, and that the final design should elevate the site's past and program.
 
+{% include gallery id="gallery2" %}
 {% include gallery caption="Iteration and provocation models for the new design" %}
 
 
