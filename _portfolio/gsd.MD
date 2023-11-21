@@ -45,7 +45,6 @@ gallery2:
     image_path: assets/img/coolestgable.png
     alt: "placeholder image 6"
 
-{% include gallery id="gallery2" %}
 ---
 
 Over a period of three weeks at Harvard's GSD, I was tasked to analyze a small lot in East Boston and propose a redesign for its use. The existing structure was originally an inexpensive shoe store built during the Great Depression by an Italian immigrant family who owned the lot, the descendants of whom have turned this historical relic into a clubhouse and social gathering space. A windowless, austere facade on the outside revealed a vibrant interior on the inside. It was an abrupt break from the triple-decker houses of Boston, yet its startling exterior did not detract from its importance to the community. 
