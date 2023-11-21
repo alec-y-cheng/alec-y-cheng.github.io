@@ -16,7 +16,7 @@ gallery:
     image_path: assets/img/IMG_0493 2.jpg
     alt: "placeholder image 3"
   - url: /assets/img/alignmentTriptych.jpg
-    image_path: assets/alignmentTriptych.jpg
+    image_path: assets/img/alignmentTriptych.jpg
     alt: "placeholder image 4"
   - url: /assets/img/symmetryTriptych.jpg
     image_path: assets/img/symmetryTriptych.jpg
