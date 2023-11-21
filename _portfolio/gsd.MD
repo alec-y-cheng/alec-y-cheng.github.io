@@ -6,20 +6,20 @@ header:
   teaser: /assets/img/revisedparti.png
   caption: "RE:Cover final model"
 gallery:
-  - url: /assets/img/IMG_0484.HEIC
-    image_path: assets/img/IMG_0484.HEIC
+  - url: /assets/img/IMG_0484.jpg
+    image_path: assets/img/IMG_0484.jpg
     alt: "placeholder image 1"
-  - url: /assets/img/IMG_0501.HEIC
-    image_path: assets/img/IMG_0501.HEIC
+  - url: /assets/img/IMG_0501.jpg
+    image_path: assets/img/IMG_0501.jpg
     alt: "placeholder image 2"
-  - url: /assets/img/IMG_0493 2.HEIC
-    image_path: assets/img/IMG_0493 2.HEIC
+  - url: /assets/img/IMG_0493 2.jpg
+    image_path: assets/img/IMG_0493 2.jpg
     alt: "placeholder image 3"
-  - url: /assets/img/Scanned Documents.pdf
-    image_path: assets/Scanned Documents.pdf
+  - url: /assets/img/Scanned Documents.jpg
+    image_path: assets/Scanned Documents.jpg
     alt: "placeholder image 4"
-  - url: /assets/img/Scanned Documents 2.pdf
-    image_path: assets/img/Scanned Documents 2.pdf
+  - url: /assets/img/Scanned Documents 2.jpg
+    image_path: assets/img/Scanned Documents 2.jpg
     alt: "placeholder image 5"
 ---
 
