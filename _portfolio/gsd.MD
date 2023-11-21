@@ -77,6 +77,6 @@ Throughout the ideation and design process, I experimented with themes of symmet
 
 The final design was called RE:Cover, an imagined building that preserves the existing site's program and legacy, and also expands upon it to suit modern demands. It remains as a community center and social gathering clubhouse, but with an open air pavillion that extends to the back of the lot for outdoor activities and performances. The asymmetrical limbs of the pavillion symbolize the deviating paths of time, one which represents its past, and the other representing the changing urban landscape of modern Boston. Finally, the entire structure is placed under a fine metal mesh scaffolding from which the silhouette of the original structure can faintly be seen from the street. RE:Cover emphasizes its underlying historical form by masking it.
 
-{% include figure image_path="/assets/images/gable.png" alt="Figure 1" %}
+{% include figure image_path="/assets/img/gable.png" alt="Figure 1" %}
 
 {% include gallery id="gallery3" caption="Final design, plans and sections" %}
