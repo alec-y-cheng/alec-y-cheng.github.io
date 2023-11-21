@@ -35,14 +35,14 @@ gallery:
   - url: /assets/img/IMG_0567.jpg
     image_path: assets/img/IMG_0567.jpg
     alt: "placeholder image 3"
-  - url: /assets/img/coolestgable.png
-    image_path: assets/coolestgable.png
+  - url: /assets/img/yellowhouseFront.png
+    image_path: assets/yellowhouseFront.png
     alt: "placeholder image 4"
   - url: /assets/img/frontviewyellowhouse.png
     image_path: assets/img/frontviewyellowhouse.png
     alt: "placeholder image 5"
-  - url: /assets/img/yellowhouseFront.png
-    image_path: assets/img/yellowhouseFront.png
+  - url: /assets/img/coolestgable.png
+    image_path: assets/img/coolestgable.png
     alt: "placeholder image 6"
 ---
 
