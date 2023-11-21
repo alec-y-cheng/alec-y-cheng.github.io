@@ -4,7 +4,7 @@ title: "About Alec"
 
 ---
 
-font-size: 1rem;
+<p style="font-size: 50px;">
     
 ## Education
 
