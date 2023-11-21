@@ -25,7 +25,9 @@ gallery:
     image_path: assets/img/texture.png
     alt: "placeholder image 6"
 
-gallery:
+{% include gallery id="gallery2" %}
+
+gallery2:
   - url: /assets/img/IMG_0581.jpeg
     image_path: assets/img/IMG_0581.jpeg
     alt: "placeholder image 1"
