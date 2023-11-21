@@ -4,6 +4,8 @@ title: "About Alec"
 
 ---
 
+font-size: 1rem;
+    
 ## Education
 
 Alec believes in the value of a multidisciplinary education experience to build the character and knowledge needed to excel in fields that necessarily rely on a deep understanding of a breadth of topics.
