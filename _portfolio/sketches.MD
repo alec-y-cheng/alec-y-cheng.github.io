@@ -9,6 +9,7 @@ gallery:
   - url: /assets/img/Sketches.png
     image_path: assets/img/Sketches.png
     alt: "placeholder image 1"
+    title: "Sutherland House at Vanderbilt, Nashville TN"
   - url: /assets/img/Sketches 2.png
     image_path: assets/img/Sketches 2.png
     alt: "placeholder image 2"
