@@ -27,4 +27,4 @@ Over a period of three weeks at Harvard's GSD, I was tasked to analyze a small l
 
 {% include gallery caption="Site photos and drawings of the original lot" %}
 
-Throughout the ideation and design process, I experimented with themes of symmetry, modularity, and intersecting textures, in addition to perpetuating the site's cultural significance through its design. 
+Throughout the ideation and design process, I experimented with themes of symmetry, modularity, and intersecting textures, in addition to perpetuating the site's cultural significance through its design. I believed that the existing structure was too established and locally important to be demolished, and that the final design should elevate the site's past and program.
