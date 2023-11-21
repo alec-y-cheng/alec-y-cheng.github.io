@@ -44,6 +44,8 @@ gallery2:
   - url: /assets/img/coolestgable.png
     image_path: assets/img/coolestgable.png
     alt: "placeholder image 6"
+
+{% include gallery id="gallery2" %}
 ---
 
 Over a period of three weeks at Harvard's GSD, I was tasked to analyze a small lot in East Boston and propose a redesign for its use. The existing structure was originally an inexpensive shoe store built during the Great Depression by an Italian immigrant family who owned the lot, the descendants of whom have turned this historical relic into a clubhouse and social gathering space. A windowless, austere facade on the outside revealed a vibrant interior on the inside. It was an abrupt break from the triple-decker houses of Boston, yet its startling exterior did not detract from its importance to the community. 
@@ -52,7 +54,7 @@ Over a period of three weeks at Harvard's GSD, I was tasked to analyze a small l
 
 Throughout the ideation and design process, I experimented with themes of symmetry, modularity, and intersecting textures, in addition to perpetuating the site's cultural significance through its design. I believed that the existing structure was too established and locally important to be demolished, and that the final design should elevate the site's past and program.
 
-{% include gallery id="gallery2" %}
+
 {% include gallery caption="Iteration and provocation models for the new design" %}
 
 
