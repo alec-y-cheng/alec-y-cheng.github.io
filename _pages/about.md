@@ -44,6 +44,6 @@ A diverse and practical skillset motivated by a passion for graphic design, 3D m
 * Club Tennis
 * WRVU Nashville Staff Writer
 
-<a href="#" class="btn btn--primary">"/assets/img/resumeReview.pdf"</a>
+<a href=""/assets/img/resumeReview.pdf" class="btn btn--primary">"/assets/img/resumeReview.pdf"</a>
 
 <img src="/assets/img/IMG_2597.jpg" alt="Alec Cheng" style="width:200px;"/>
