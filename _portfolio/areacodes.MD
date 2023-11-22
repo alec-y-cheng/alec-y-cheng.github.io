@@ -46,6 +46,6 @@ I wanted to make a detailed, coherent diagram that could tell all these stories 
 
 {% include gallery id="gallery" %}
 
-The final map was not the first map. In creating this project, I wanted to show the area codes, the passing of time, and geogrpahic region and area size of each code. I experimented and iterated with many versions, some more comprehensible, some more informative. Throughout my design process, you can see my emphasis on different aspects of the maps that I ultimately consolidated into my final version.
+The final map was not the first map. In creating this project, I wanted to show the area codes, the passing of time, and geographic region and area size of each code. I experimented and iterated with many versions, some more comprehensible, some more informative. Throughout my design process, you can see my emphasis on different aspects of the maps that I ultimately consolidated into my final version.
 
 {% include gallery id="gallery2" %}
