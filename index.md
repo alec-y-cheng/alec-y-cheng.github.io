@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Alec is a student with a passion for design, history, and maps! He wants to pursue a career in architecture and urban design. Check out some of his projects!"
+excerpt: "Alec is a student with a passion for design, history, and maps. He wants to pursue a career in architecture and urban design. Check out some of his projects here"
 feature_row:
   - image_path: assets/img/IMG_0567.jpg
     alt: "GSD Iteration Model"
@@ -21,7 +21,7 @@ feature_row:
   - image_path: assets/img/3clusterdata.jpeg
     alt: "Map"
     title: "Maps"
-    excerpt: "Cool ways to visualize data!"
+    excerpt: "Experimentations in data visualization"
 ---
 
 {% include feature_row %}
