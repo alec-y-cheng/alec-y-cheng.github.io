@@ -104,6 +104,7 @@ author:
     - label: "   Resume"
       icon: "fas fa-file"
       url: "/assets/img/resumeReview.pdf"
+      target: "_blank"
     - label: " LinkedIn"
       icon: "<fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/alec-cheng-20bb0b227/"
