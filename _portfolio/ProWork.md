@@ -69,16 +69,18 @@ gallery3:
 
 ## VURJ Back Cover Design
 
-Over a period of three weeks at Harvard's GSD, I was tasked to analyze a small lot in East Boston and propose a redesign for its use. The existing structure was originally an inexpensive shoe store built during the Great Depression by an Italian immigrant family who owned the lot, the descendants of whom have turned this historical relic into a clubhouse and social gathering space. A windowless, austere facade on the outside revealed a vibrant interior on the inside. It was an abrupt break from the triple-decker houses of Boston, yet its startling exterior did not detract from its importance to the community. 
+In 2023, I was selected to design the back cover of the Vanderbilt Undergraduate Research Journal, which would be used in all future issues of the journal. The journal wanted a line-art based design for 7 main subjects that the journal encompasses: Education, Engineering, Humanities, Math & Physics, Natural Science, Political Science & Economics, and Social Science. Here is the final design
 
 {% include gallery id="gallery" caption="Site photos and drawings of the original lot" %}
 
-Throughout the ideation and design process, I experimented with themes of symmetry, modularity, and intersecting textures, in addition to perpetuating the site's cultural significance through its design. I believed that the existing structure was too established and locally important to be demolished, and that the final design should elevate the site's past and program.
+The design underwent several major changes during the process, and it was important to me to make something that was conveyed the values of people who are passionate about research, but in a way that was not too visually imposing so that might be mistaken for being a front cover. Finding that balance in color, visibility and coherence was a challenge, and my various edits reflect these goals.
 
-{% include gallery id="gallery2" caption="Iteration and provocation models for the new design" %}
+{% include gallery id="gallery" caption="Drafts of design ideas before the final product" %}
 
 The final design was called RE:Cover, an imagined building that preserves the existing site's program and legacy, and also expands upon it to suit modern demands. It remains as a community center and social gathering clubhouse, but with an open air pavillion that extends to the back of the lot for outdoor activities and performances. The asymmetrical limbs of the pavillion symbolize the deviating paths of time, one which represents its past, and the other representing the changing urban landscape of modern Boston. Finally, the entire structure is placed under a fine metal mesh scaffolding from which the silhouette of the original structure can faintly be seen from the street. RE:Cover emphasizes its underlying historical form by masking it.
 
 {% include figure image_path="/assets/img/gable.png" alt="Figure 1" url="/assets/img/gable.png" %}
 
 {% include gallery id="gallery3" caption="Final design, plans and sections" %}
+
+## Window of Love Logo Redesign
