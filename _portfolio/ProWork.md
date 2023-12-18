@@ -2,12 +2,10 @@
 title: "Professional Graphic Design Work"
 excerpt: "Art work for other people"
 header:
-  image: /assets/img/time.png
-  teaser: /assets/img/revisedparti.png
-  caption: "RE:Cover final model"
+  teaser: /assets/img/WOLgridfinaldesigns-02 (1).png
 gallery:
-  - url: /assets/img/IMG_0483.jpg
-    image_path: assets/img/IMG_0483.jpg
+  - url: /assets/img/WOLgridfinaldesigns-02 (1).png
+    image_path: assets/img/WOLgridfinaldesigns-02 (1).png
     alt: "placeholder image 1"
 
 
