@@ -73,14 +73,15 @@ In 2023, I was selected to design the back cover of the Vanderbilt Undergraduate
 
 {% include gallery id="gallery" caption="Site photos and drawings of the original lot" %}
 
-The design underwent several major changes during the process, and it was important to me to make something that was conveyed the values of people who are passionate about research, but in a way that was not too visually imposing so that might be mistaken for being a front cover. Finding that balance in color, visibility and coherence was a challenge, and my various edits reflect these goals.
+The design underwent several major changes during the process, and it was important to me to make something that conveyed the values of research, but in a way that was not too visually imposing. Finding that balance in color, visibility, and coherence was a challenge, and my various edits reflect these goals.
 
 {% include gallery id="gallery" caption="Drafts of design ideas before the final product" %}
 
-The final design was called RE:Cover, an imagined building that preserves the existing site's program and legacy, and also expands upon it to suit modern demands. It remains as a community center and social gathering clubhouse, but with an open air pavillion that extends to the back of the lot for outdoor activities and performances. The asymmetrical limbs of the pavillion symbolize the deviating paths of time, one which represents its past, and the other representing the changing urban landscape of modern Boston. Finally, the entire structure is placed under a fine metal mesh scaffolding from which the silhouette of the original structure can faintly be seen from the street. RE:Cover emphasizes its underlying historical form by masking it.
-
-{% include figure image_path="/assets/img/gable.png" alt="Figure 1" url="/assets/img/gable.png" %}
-
-{% include gallery id="gallery3" caption="Final design, plans and sections" %}
 
 ## Window of Love Logo Redesign
+
+Community service is a key focus of the Peabody Scholars Program, which aims to uplift local organizations and projects with our knowledge as students specializing in education, child and social development majors. Window of Love was the organization our cohort partnered with, run by one loving mom in the community of North Nashville who gives out free lunches and books to kids out of the window of her home on days with no school. Mrs. Samaria's non-profit provides a vibrant space where kids from all over the area, a predominantly black community with many struggling from food insecurity, come socialize and play with each other. 
+
+In addition to establishing connections to the Nashville Food Project, creating a convenient website, and creating an improved outreach system, she was interested in a more professional rebranding of her logo that she could display on business documents. Her current logo was an endearing hand drawing of her window and some of her core values, but might not have been the best fit for small-scale display on printed documents. The most important idea she wants in her logo is love, and my redesigned logo embodies this and the goals and values of her business in a much simpler icon.
+
+I communicated frequently with Mrs. Samaria regarding her preferences for the design and her feedback on my current progress. We went through many iterations and experiments until we landed on the one that she loved.
