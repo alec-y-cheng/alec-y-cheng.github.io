@@ -84,4 +84,4 @@ Community service is a key focus of the Peabody Scholars Program, which aims to 
 
 In addition to establishing connections to the Nashville Food Project, creating a convenient website, and creating an improved outreach system, she was interested in a more professional rebranding of her logo that she could display on business documents. Her current logo was an endearing hand drawing of her window and some of her core values, but might not have been the best fit for small-scale display on printed documents. The most important idea she wants in her logo is love, and my redesigned logo embodies this and the goals and values of her business in a much simpler icon.
 
-I communicated frequently with Mrs. Samaria regarding her preferences for the design and her feedback on my current progress. We went through many iterations and experiments until we landed on the one that she loved.
+I communicated frequently with Ms. Samaria regarding her preferences for the design and her feedback on my current progress. We went through many iterations and experiments until we landed on the one that she loved.
