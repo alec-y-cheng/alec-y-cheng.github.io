@@ -9,21 +9,7 @@ gallery:
   - url: /assets/img/IMG_0483.jpg
     image_path: assets/img/IMG_0483.jpg
     alt: "placeholder image 1"
-  - url: /assets/img/IMG_0501.jpg
-    image_path: assets/img/IMG_0501.jpg
-    alt: "placeholder image 2"
-  - url: /assets/img/IMG_0493 2.jpg
-    image_path: assets/img/IMG_0493 2.jpg
-    alt: "placeholder image 3"
-  - url: /assets/img/alignmentTriptych.jpg
-    image_path: assets/img/alignmentTriptych.jpg
-    alt: "placeholder image 4"
-  - url: /assets/img/symmetryTriptych.jpg
-    image_path: assets/img/symmetryTriptych.jpg
-    alt: "placeholder image 5"
-  - url: /assets/img/texture.png
-    image_path: assets/img/texture.png
-    alt: "placeholder image 6"
+
 
 gallery2:
   - url: /assets/img/IMG_0581.jpeg
