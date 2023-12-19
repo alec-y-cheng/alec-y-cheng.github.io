@@ -31,8 +31,9 @@ gallery4:
 ---
 
 ## A &ast;New&ast; Program for Graphic Design Redesign
+<h2>A <span style="font-weight: normal;">&ast;New&ast;</span> Program for Graphic Design Redesign</h2>
 
-<u>A &ast;New&ast; Program for Graphic Design</u> is a book of contemporary design principles of the last century that have defined the discourse of design education. It was the guiding book of my graphic design class, and one such project was to redesign the cover, originally written in English, into another language. I chose Hungarian, and used Moholy-Nagy's design principles and aesthetics to guide my design.
+<u>A &ast;New&ast; Program for Graphic Design</u> by David Reinfurt is a book of contemporary design principles of the last century that have defined the discourse of design education. It was the guiding book of my graphic design class, and one such project was to redesign the cover, originally written in English, into another language. I chose Hungarian, and used Moholy-Nagy's design principles and aesthetics to guide my design.
 
 {% include gallery id="gallery" caption="Final cover design" %}
 
