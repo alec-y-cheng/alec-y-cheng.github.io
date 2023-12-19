@@ -60,7 +60,7 @@ The design underwent several major changes during the process, and it was import
 
 Community service is a key focus of the Peabody Scholars Program, which aims to uplift local organizations and projects with our knowledge as students specializing in education, child and social development majors. Window of Love was the organization our cohort partnered with, run by one loving mom in the community of North Nashville who gives out free lunches and books to kids out of the window of her home on days with no school. Mrs. Samaria's non-profit provides a vibrant space where kids from all over the area, a predominantly black community with many struggling from food insecurity, come socialize and play with each other. 
 
-{% include gallery id="gallery" caption="Site photos and drawings of the original lot" %}
+{% include gallery id="gallery" caption="Final logo design" %}
 
 In addition to establishing connections to the Nashville Food Project, creating a convenient website, and creating an improved outreach system, she was interested in a more professional rebranding of her logo that she could display on business documents. Her current logo was an endearing hand drawing of her window and some of her core values, but might not have been the best fit for small-scale display on printed documents. The most important idea she wants in her logo is love, and my redesigned logo embodies this and the goals and values of her business in a much simpler icon.
 
