@@ -24,7 +24,7 @@ gallery2:
     image_path: assets/img/WOLgridfinaldesigns (1).png
     alt: "placeholder image 5"
 
-galler3:
+gallery3:
   - url: /assets/img/backcoverdesigntemplate.png
     image_path: assets/img/backcoverdesigntemplate.png
     alt: "placeholder image 1"
