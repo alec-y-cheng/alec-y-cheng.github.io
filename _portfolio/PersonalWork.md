@@ -45,20 +45,26 @@ gallery4:
 
 ---
 
-## VURJ Back Cover Design
+## A &#42*New*&#42 Program for Graphic Design Redesign
 
-In 2023, I was selected to design the back cover of the Vanderbilt Undergraduate Research Journal, which would be used in all future issues of the journal. The journal wanted a line-art based design for 7 main subjects that the journal encompasses: Education, Engineering, Humanities, Math & Physics, Natural Science, Political Science & Economics, and Social Science. Here is the final design
+<A *New* Program for Graphic Design> is a book of contemporary design principles of the last century that have defined the discourse of design education. It was the guiding book of my graphic design class, and one such project was to redesign the cover, originally written in English, into another language. I chose Hungarian, and used Moholy-Nagy's design principles and aesthetics to guide my design.
 
 {% include gallery id="gallery3" caption="Final cover design" %}
 
-The design underwent several major changes during the process, and it was important to me to make something that conveyed the values of research, but in a way that was not too visually imposing. Finding that balance in color, visibility, and coherence was a challenge, and my various edits reflect these goals.
+## A Typoloy of American Houses
+
+I've done a few experimemts in the making of typologies. One such project was in the various houses that are present in the US, from New England to Southwest, Colonial to Modern times. 
 
 {% include gallery id="gallery4" caption="Cover drafts" %}
 
+## A Typology of Corners in the Vaughn Home
 
-## Window of Love Logo Redesign
+The Vaughn home is a historic building on Vanderbilt's campus that stood as a professor's house, girls' dorm, then into a center for humanities. In celebration of Vanderbilt's sesquicentennial anniversary, the Vaughn home was turned into an art and history museum that showcased its significance to Vanderbilt's multiple eras. In one of many studies of the house's form, architecture, and history, I created a typology of the various forms, textures, and colors found in the house's interior corners.
 
-Community service is a key focus of the Peabody Scholars Program, which aims to uplift local organizations and projects with our knowledge as students specializing in education, child and social development majors. Window of Love was the organization our cohort partnered with, run by one loving mom in the community of North Nashville who gives out free lunches and books to kids out of the window of her home on days with no school. Mrs. Samaria's non-profit provides a vibrant space where kids from all over the area, a predominantly black community with many struggling from food insecurity, come socialize and play with each other. 
+
+## Vaughn Home Postcard
+
+In another project to rebrand the Vaughn home during its 150th year birthday, I created a design for a Vaughn Home-themed postcard that integrates the shape of the Vaughn home facade and forward-thinking aesthetic of the next era of the Vanderbilt and the Vaughn home's journey.
 
 {% include gallery id="gallery" caption="Final logo design" %}
 
