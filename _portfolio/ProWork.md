@@ -2,10 +2,10 @@
 title: "Professional Graphic Design Work"
 excerpt: "Art work for other people"
 header:
-  teaser: /assets/img/WOLgridfinaldesigns-02 (1).png
+  teaser: /assets/img/WOLgridfinaldesigns-02 (1).jpg
 gallery:
-  - url: /assets/img/WOLgridfinaldesigns-02 (1).png
-    image_path: assets/img/WOLgridfinaldesigns-02 (1).png
+  - url: /assets/img/WOLgridfinaldesigns-02 (1).jpg
+    image_path: assets/img/WOLgridfinaldesigns-02 (1).jpg
     alt: "placeholder image 1"
 
 
