@@ -23,25 +23,24 @@ gallery2:
     image_path: assets/img/WOLgridfinaldesigns (1).png
     alt: "placeholder image 5"
 
-gallery3:
-  - url: /assets/img/needthisnow.png
-    image_path: assets/img/needthisnow.png
+galler3:
+  - url: /assets/img/backcoverdesigntemplate.png
+    image_path: assets/img/backcoverdesigntemplate.png
     alt: "placeholder image 1"
-  - url: /assets/img/underthegable.jpg
-    image_path: assets/img/underthegable.jpg
+
+gallery4:
+  - url: /assets/img/backcoverdesigntemplate-10.png
+    image_path: assets/img/backcoverdesigntemplate-10.png
     alt: "placeholder image 2"
-  - url: /assets/img/grassyFinal.png
-    image_path: assets/img/grassyFinal.png
+  - url: /assets/img/backcoverdesigntemplate-12.PNG
+    image_path: assets/img/backcoverdesigntemplate-12.PNG
     alt: "placeholder image 3"
-  - url: /assets/img/plansectiondiagram.jpg
-    image_path: assets/img/plansectiondiagram.jpg
+  - url: /assets/img/backcoverdesigntemplate-14 2.PNG
+    image_path: assets/img/backcoverdesigntemplate-14 2.PNG
     alt: "placeholder image 4"
-  - url: /assets/img/plansectiondiagram2.jpg
-    image_path: assets/img/plansectiondiagram2.jpg
+  - url: /assets/img/backcoverdesigntemplate-14.png
+    image_path: assets/img/backcoverdesigntemplate-14.png
     alt: "placeholder image 5"
-  - url: /assets/img/planfinal.png
-    image_path: assets/img/planfinal.png
-    alt: "placeholder image 6"
 
 ---
 
@@ -49,11 +48,11 @@ gallery3:
 
 In 2023, I was selected to design the back cover of the Vanderbilt Undergraduate Research Journal, which would be used in all future issues of the journal. The journal wanted a line-art based design for 7 main subjects that the journal encompasses: Education, Engineering, Humanities, Math & Physics, Natural Science, Political Science & Economics, and Social Science. Here is the final design
 
-{% include gallery id="gallery" caption="Site photos and drawings of the original lot" %}
+{% include gallery id="gallery3" caption="Final cover design" %}
 
 The design underwent several major changes during the process, and it was important to me to make something that conveyed the values of research, but in a way that was not too visually imposing. Finding that balance in color, visibility, and coherence was a challenge, and my various edits reflect these goals.
 
-{% include gallery id="gallery2" caption="Drafts of design ideas before the final product" %}
+{% include gallery id="gallery4" caption="Cover drafts" %}
 
 
 ## Window of Love Logo Redesign
