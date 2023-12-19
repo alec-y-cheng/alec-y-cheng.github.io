@@ -2,12 +2,15 @@
 title: "Personal Graphic Design Work"
 excerpt: "Art work for classes or myself"
 header:
-  teaser: /assets/img/WOLgridfinaldesigns-02.jpg
+  teaser: /assets/img/postcardRevisit.png
 
 gallery:
-  - url: /assets/img/WOLgridfinaldesigns-02.jpg
-    image_path: assets/img/WOLgridfinaldesigns-02.jpg
+  - url: /assets/img/portfolio-19.png
+    image_path: assets/img/portfolio-19.png
     alt: "placeholder image 1"
+  - url: /assets/img/portfolio-20.png
+    image_path: assets/img/portfolio-20.png
+    alt: "placeholder image 2"
 
 
 gallery2:
