@@ -7,14 +7,15 @@ header:
 ---
 
 <style>
-  /* Set the iframe to occupy 100% width of the container */
-  iframe {
-    width: 100%;
+  /* Set the iframe to occupy 100% width of the viewport */
+  body {
+    margin: 0;
   }
 
-  /* Set the height as needed */
   iframe {
-    height: 500px; /* You can adjust this value based on your needs */
+    width: 100vw;
+    height: 100vh; /* You can adjust this value based on your needs */
+    border: 0; /* Remove the iframe border if any */
   }
 </style>
 
