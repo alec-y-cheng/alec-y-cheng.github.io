@@ -3,7 +3,7 @@ title: "Neighborhood Toponymy Project"
 excerpt: "Investigating the relationship between neighborhood name and income"
 header:
   teaser: /assets/img/WOLgridfinaldesigns-02.jpg
-layout: default
+layout: defaultmodified
 
 ---
 
