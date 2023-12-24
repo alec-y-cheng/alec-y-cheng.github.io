@@ -50,6 +50,6 @@ A diverse and practical skillset motivated by a passion for graphic design, 3D m
 * Peabody Academic Mentors
 * Club Tennis
 
-<a href="/assets/img/Alec_Cheng_Resume.pdf" class="btn btn--primary" target="_blank">Resume</a>
+<a href="/assets/img/Alec_Cheng_Resume_Compressed.pdf" class="btn btn--primary" target="_blank">Resume</a>
 
 <img src="/assets/img/IMG_2597.jpg" alt="Alec Cheng" style="width:200px;"/>
