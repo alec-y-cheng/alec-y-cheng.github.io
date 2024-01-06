@@ -1,12 +1,12 @@
 ---
 
-title: "About Alec"
+title: "About me"
 
 ---
     
 ## Education
 
-Alec believes in the value of a multidisciplinary education experience to build the character and knowledge needed to excel in fields that necessarily rely on a deep understanding of a breadth of topics.
+I believe in the value of a multidisciplinary education experience to build the character and knowledge needed to excel in fields that necessarily rely on a deep understanding of a breadth of topics.
 
 * Vanderbilt University, Class of '24
   * BS Cognitive Studies
@@ -33,7 +33,7 @@ Alec believes in the value of a multidisciplinary education experience to build 
 
 ## Skills
 
-A diverse and practical skillset motivated by a passion for graphic design, 3D modeling, and geography 
+I have a diverse and practical skillset motivated by my passion for graphic design, 3D modeling, and geography 
 
 * QGIS
 * Illustrator
