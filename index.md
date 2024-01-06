@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Alec's Portfolio Site"
+title: "Welcome to my Portfolio Site"
 layout: splash
 header:
   overlay_color: "#000"
@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Alec is a student with a passion for design, history, and maps. He wants to pursue a career in architecture and urban design. Check out some of his projects here"
+excerpt: "Hi, my name is Alec. I'm a student with a passion for design, history, and maps. I want to pursue a career in architecture and urban design. You can check out some of my projects here"
 feature_row:
   - image_path: assets/img/IMG_0567.jpg
     alt: "GSD Iteration Model"
