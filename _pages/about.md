@@ -1,6 +1,6 @@
 ---
 
-title: "About me"
+title: "About Me"
 
 ---
     
