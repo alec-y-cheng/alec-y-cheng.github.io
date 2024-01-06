@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my Portfolio Site"
+title: "Welcome to My Portfolio Site"
 layout: splash
 header:
   overlay_color: "#000"
