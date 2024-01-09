@@ -30,7 +30,7 @@ gallery2:
 
 ---
 
-I had always had a bizarre passion for US area codes and their history. Area codes are more than just three-digit numbers that represent a particular location. Their development also tells us a story of population growth, where new codes emerging in some places indicate rapid growth, like Southern California, while stagnant or declining populations have kept the same codes for decades, like California's sparsely populated Northeast. 
+I have always had a bizarre passion for US area codes and their history. Area codes are more than just three-digit numbers that represent a particular location. Their development also tells us a story of population growth, where new codes emerging in some places indicate rapid growth, like Southern California, while stagnant or declining populations have kept the same codes for decades, like California's sparsely populated Northeast. 
 <br>
 <br>
 An area code map is also analagous to a population density map. Area codes roughly serve the same population, meaning that an area code serving a small region, like Downtown LA's 213, has about as many people as California's desert code 760.
