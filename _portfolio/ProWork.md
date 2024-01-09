@@ -58,7 +58,7 @@ The design underwent several major changes during the process, and it was import
 
 ## Window of Love Logo Redesign
 
-Community service is a key focus of the Peabody Scholars Program, which aims to uplift local organizations and projects with our knowledge as students specializing in education, child and social development majors. Window of Love was the organization our cohort partnered with, run by one loving mom in the community of North Nashville who gives out free lunches and books to kids out of the window of her home on days with no school. Mrs. Samaria's non-profit provides a vibrant space where kids from all over the area, a predominantly black community with many struggling from food insecurity, come socialize and play with each other. 
+Community service is a key focus of the Peabody Scholars Program, which aims to uplift local organizations and projects with our knowledge as students specializing in education, child and social development majors. Window of Love was the organization our cohort partnered with, run by one loving mom in the community of North Nashville who gives out free lunches and books to kids out of the window of her home on days with no school. Ms. Samaria's non-profit provides a vibrant space where kids from all over the area, a predominantly black community with many struggling from food insecurity, come socialize and play with each other. 
 
 {% include gallery id="gallery" caption="Final logo design" %}
 
