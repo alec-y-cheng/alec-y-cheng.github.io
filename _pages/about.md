@@ -12,12 +12,15 @@ I believe in the value of a multidisciplinary education experience to build the 
   * BS Cognitive Studies
   * BS Architecture and the Built Environment
   * Peabody Scholar
+  * Magna Cum Laude
 * Canyon Crest Academy, Class of '21
 
 ## Experience
 
-* Vanderbilt Institute for Spatial Research (2023-Present)
-  * Currently working as a lab assistant doing georeferencing work for the Ladies' Hermitage Foundation
+* Barge Design Solutions (May 2024-Present)
+  * Currently working as a full time Landscape Architecture & Planning Intern. Working on a variety of projects ranging from curating graphic maps and documents for prospective clients to studying and writing Comprehensive Plan elements.
+* Vanderbilt Institute for Spatial Research (2023-2024)
+  * Worked as a lab assistant doing georeferencing work for multiple local historical preservation projects, including the Ladies' Hermitage Foundation and the William Edmonson Homesite project.
 * Peabody Scholars Program (2021-Present)
   * Selective college-wide honors program for students engaged in community service and leadership
 * GRID Architecture and Design Journal (2023-Present)
@@ -40,6 +43,8 @@ I have a diverse and practical skillset motivated by my passion for graphic desi
 * QGIS
 * Illustrator
 * Photoshop
+* Indesign
+* Revit
 * Blender
 * Rhino
 * Microsoft Office
