@@ -13,6 +13,7 @@ I believe in the value of a multidisciplinary education experience to build the 
   * BS Architecture and the Built Environment
   * Peabody Scholar
   * Magna Cum Laude
+  * Outstanding Graduate in Architecture & the Built Environment
 * Canyon Crest Academy, Class of '21
 
 ## Experience
