@@ -103,7 +103,7 @@ author:
   links:
     - label: "   Resume"
       icon: "fas fa-file"
-      url: "/assets/img/Alec_Cheng_Resume_V7.pdf"
+      url: "/assets/img/portfolioresumez713-compressed.pdf"
       # target: "_blank"
       onclick: "window.open(this.href,'_blank'); return false;"
     - label: " LinkedIn"
