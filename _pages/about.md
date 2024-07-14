@@ -59,6 +59,6 @@ I have a diverse and practical skillset motivated by my passion for graphic desi
 * Club Tennis
 * Speedcubing
 
-<a href="/assets/img/Alec_Cheng_Resume_V7.pdf" class="btn btn--primary" target="_blank">Resume</a>
+<a href="/assets/img/portfolio71324-15.png" class="btn btn--primary" target="_blank">Resume</a>
 
 <img src="/assets/img/IMG_2597.jpg" alt="Alec Cheng" style="width:200px;"/>
