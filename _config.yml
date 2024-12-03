@@ -98,7 +98,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/img/Alec Cheng_white_right.jpg"
-  bio              : "A student with an interest in architecture and urban planning "
+  bio              : "A student with an interest in urban design, architecture, maps, and data visualization "
   location         : "Nashville, TN"
   links:
     - label: "   Resume"
