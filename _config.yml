@@ -98,8 +98,8 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/img/Alec Cheng_white_right.jpg"
-  bio              : "A student with an interest in urban design, architecture, maps, and data visualization "
-  location         : "Nashville, TN"
+  bio              : "A graduate student with an interest in machine learning, data visualization, and computer vision"
+  location         : "Atlanta, GA"
   links:
     - label: "   Resume"
       icon: "fas fa-file"
