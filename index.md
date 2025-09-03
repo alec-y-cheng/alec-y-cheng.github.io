@@ -12,16 +12,16 @@ excerpt: "Hi, my name is Alec. I'm a student with a passion for machine learning
 feature_row:
   - image_path: assets/img/IMG_0567.jpg
     alt: "GSD Iteration Model"
-    title: "Architecture"
+    title: "Design"
     excerpt: "Sketches, line drawings, and projects"
-  - image_path: assets/img/housesreadjusted.png
-    alt: "American House Typology"
-    title: "Graphic Design"
-    excerpt: "Personal and professional work that integrates a variety of design tools and processes"
+  - image_path: 
+    alt: "TBD"
+    title: "Machine Learning"
+    excerpt: "Machine learning models applied to computer vision, spatial data, etc."
   - image_path: assets/img/3clusterdata.jpeg
     alt: "Map"
-    title: "Maps"
-    excerpt: "Experimentations in data visualization"
+    title: "GIS Methods"
+    excerpt: "Experimentations in spatial data visualization"
 ---
 
 {% include feature_row %}
