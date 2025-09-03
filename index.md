@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Hi, my name is Alec. I'm a student with a passion for design, maps, and data visualization. You can check out some of my projects here"
+excerpt: "Hi, my name is Alec. I'm a student with a passion for machine learning, spatial data analysis, data visualization, and design. You can check out some of my projects here"
 feature_row:
   - image_path: assets/img/IMG_0567.jpg
     alt: "GSD Iteration Model"
