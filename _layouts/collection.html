@@ -4,7 +4,28 @@ layout: archive
 
 {{ content }}
 
+
+<h2>Portfolio</h2>
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html 
+     collection="portfolio" 
+     sort_by=page.sort_by 
+     sort_order=page.sort_order 
+     type=entries_layout %}
+</div>
+
+<h2>Projects</h2>
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html 
+     collection="projects" 
+     sort_by=page.sort_by 
+     sort_order=page.sort_order 
+     type=entries_layout %}
+</div>
+
+<!--
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %}
 </div>
+-->
