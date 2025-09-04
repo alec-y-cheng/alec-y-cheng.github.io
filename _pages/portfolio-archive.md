@@ -7,5 +7,5 @@ entries_layout: grid
 classes: wide
 ---
 
-<h2>Second Section</h2>
+<h2>Machine Learning Projects</h2>
 {% include collection.html collection="projects" entries_layout="grid" %}
