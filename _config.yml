@@ -181,6 +181,8 @@ kramdown:
 collections:
   portfolio:
     output: true
+  projects:
+    output: true
     permalink: /:collection/:path/
 
 
