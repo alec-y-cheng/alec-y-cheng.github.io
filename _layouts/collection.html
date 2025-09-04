@@ -6,21 +6,17 @@ layout: archive
 
 
 <h2>Portfolio</h2>
-<div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html 
-     collection="portfolio" 
-     sort_by=page.sort_by 
-     sort_order=page.sort_order 
-     type=entries_layout %}
+<div class="entries-grid">
+  {% for item in site.portfolio %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
 </div>
 
 <h2>Projects</h2>
-<div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html 
-     collection="projects" 
-     sort_by=page.sort_by 
-     sort_order=page.sort_order 
-     type=entries_layout %}
+<div class="entries-grid">
+  {% for item in site.projects %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
 </div>
 
 <!--
