@@ -103,7 +103,7 @@ author:
   links:
     - label: "   Resume"
       icon: "fas fa-file"
-      url: "/assets/img/Website_Portfolio.pdf"
+      url: "assets/img/Alec_Resume_Engineering.pdf"
       # target: "_blank"
       onclick: "window.open(this.href,'_blank'); return false;"
     - label: " LinkedIn"
