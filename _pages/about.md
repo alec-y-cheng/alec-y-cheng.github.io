@@ -68,6 +68,6 @@ I have a diverse and practical skillset motivated by my passion for data analysi
 * Vanderbilt Club Tennis
 * Vanderbilt Cube Club (see my WCA profile [here](https://www.worldcubeassociation.org/persons/2024CHEN23))
 
-<a href="/assets/img/Website_Portfolio.pdf" class="btn btn--primary" target="_blank">Resume</a>
+<a href="assets/img/Alec_Resume_Engineering.pdf" class="btn btn--primary" target="_blank">Resume</a>
 
 <img src="/assets/img/IMG_2597.jpg" alt="Alec Cheng" style="width:200px;"/>
