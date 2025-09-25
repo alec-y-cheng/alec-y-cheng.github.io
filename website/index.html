@@ -1,0 +1,303 @@
+<!-- file type declaration -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alec Cheng</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- Google Font for intro-top -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Varela&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="intro-top">
+        <div class="name-block">
+          <h1 id="big-name">— Alec Cheng—</h1>
+          <h6 id="city">Atlanta, Georgia</h6>
+        </div>
+
+        <img src="images/AlecChengBarge.jpg" alt="An image of Alec Cheng" />
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/alec-cheng-20bb0b227/"
+            target="_blank"
+          >
+            <img src="icons/linkedin.svg" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/alec-y-cheng" target="_blank"
+            ><img src="icons/github.svg" alt="GitHub"
+          /></a>
+          <a href="mailto:alec.yan.cheng@gmail.com" target="_blank"
+            ><img src="icons/gmail.svg" alt="Gmail"
+          /></a>
+        </div>
+      </div>
+
+      <div class="short-blurb">
+        <p>
+          Computer Science Master's student at Georgia Tech, specializing in
+          Machine Learning
+        </p>
+        <p>
+          Passionate about computer vision, spatial data anlaysis, and design
+        </p>
+      </div>
+    </header>
+
+    <main class="page-layout">
+      <!-- Left Panel -->
+      <div class="left-panel">
+        <nav>
+          <a href="#section-projects" class="projects-link">PROJECTS</a>
+          <span class="vertical-separator"></span>
+          <a href="#section-about" class="about-link">ABOUT ME</a>
+        </nav>
+
+        <div class="section-separator"></div>
+
+        <div id="left-content">
+          <section id="project-section">
+            <div id="ml-project">
+              <h3>Machine Learning</h3>
+              <p>
+                Class project for CS7641, investigating 3D Gaussian Splatting
+              </p>
+            </div>
+            <div id="toponymy-project">
+              <h3>
+                <a
+                  href="https://storymaps.arcgis.com/stories/7afa476b89934014a43160e7381f087a"
+                  target="_blank"
+                  >Neighborhood Toponymy Project</a
+                >
+              </h3>
+              <p>
+                Investigating the relationship between neighborhood name and
+                income
+              </p>
+            </div>
+            <div id="georeferencing-project">
+              <h3>
+                <a
+                  href="https://william-edmondson-homesite-vanderbilt.hub.arcgis.com/pages/9251088aff65402ba45daa1cddd97593"
+                  target="_blank"
+                  >William Edmondson Homesite Project</a
+                >
+              </h3>
+              <p>
+                Mapping the forgotten bounds of a famous Nashville sculptor
+                through georeferencing
+              </p>
+            </div>
+            <div id="design-portfolio">
+              <h3>
+                <a
+                  href="https://issuu.com/umpubalec/docs/alec_cheng_portfolio123"
+                  target="_blank"
+                  >Architecture Portfolio</a
+                >
+              </h3>
+              <p>
+                Five curated projects investigating themes in history and
+                identity through space
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- Right Panel -->
+      <div id="right-panel">
+        <div id="classproject" class="panel-content">
+          <h3>3D Gaussian Splatting Project</h3>
+          <h4>Fall 2025</h4>
+          <p>
+            Semester-long Machine Learning (CS7641) project mixing computer
+            vision techniques to reconstruct 3D environments from 2D images. In
+            progress...
+          </p>
+        </div>
+        <div id="toponymyproject" class="panel-content">
+          <h3>Neighborhood Topnymy Project</h3>
+          <h4>Fall 2023</h4>
+          <p>
+            My final project for Intro to GIS and Remote Systems class examines
+            the relationship between median household income and neighborhood
+            toponymy, the study of place names. This project examined 19 types
+            of common place suffixes (e.g. containing the word "park",
+            "heights", etc.) across 27 of the largest US cities (3721
+            neighborhoods in total), and the local and global patterns in
+            income. <br /><br />
+            Using hot spot analysis and statistical tests on income aggregated
+            on neighborhood name, no statistically significant correlation was
+            found between neighborhood name and income. However, many local
+            patterns hinted at a mediating role that geography plays in income
+            differences that are present.
+          </p>
+          <section id="map-previews">
+            <img
+              src="images/LA_Heights_Terrain.png"
+              alt="Map of median income in Heights neighborhoods in LA"
+            />
+            <img
+              src="images/LA_Hills_Terrain.png"
+              alt="Map of median income in Hills neighborhoods in LA"
+            />
+          </section>
+        </div>
+        <div id="georeferencingproject" class="panel-content">
+          <h3>William Edmondson Homesite Project</h3>
+          <h4>Summer 2024</h4>
+          <p>
+            The fight to preserve the pioneering African-American sculptor
+            William Edmondson's legacy has been a decades-long fight between the
+            city of Nashville, private developers, and the working-class
+            Edgehill community he once called home. After his neighborhood's
+            houses were cleared following Nashville's urban renewal, today an
+            elementary school with a beloved memorial garden sits on the land, a
+            space whose future has recently been put into question once again.
+            <br /><br />
+            As a research assistant at the Vanderbilt Institute for Spatial
+            Research, I georeferenced a catalog of historical housing, zoning,
+            and aerial maps and site plans of Edmondson's Edgehill community.
+            Understanding the spatial relationship between Edmonson's Edgehill
+            and modern Edgehill can offer us clues into how the rooted Edgehill
+            community has experienced and reacted to change amidst the boom and
+            rebranding of one of America's fastest growing cities.
+          </p>
+        </div>
+        <div id="gsdproject" class="panel-content">
+          <h3>M.Arch Portfolio</h3>
+          <h4>Fall 2024</h4>
+          <p>
+            M.Arch portfolio consisting of 5 works created throughout my
+            exploration of the built environment in my undergrad career. The
+            most dominant themes I explored during my studies, expressed
+            strongly throughout these projects, are the role that history plays
+            in shaping modern space and identity <br /><br />
+
+            Having always had a passion for data visualization and optimizing
+            the learning of complex information in digestible ways, many of my
+            projects serve as case studies for how vastly different forms of
+            media can be expressed succintly, whether that be through 3D space,
+            multimedia maps, or collages.
+          </p>
+          <section id="arch-previews">
+            <img
+              src="images/gsd_backyard.png"
+              alt="3D model of GSD architecture project"
+            />
+            <img
+              src="images/CaliforniaAreaCodeProject.png"
+              alt="Diagram displaying California population, telecommunications, and timeline data"
+            />
+            <img
+              src="images/traditionalbuddhist.png"
+              alt="Collage of drawings and photos taken in Mongolia"
+            />
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Hidden section -->
+    <div id="hidden-sections" style="display: none">
+      <section id="about-section">
+        <p>
+          I'm a first-year MSCS student at Georgia Tech, interested in the
+          applications of machine learning models in computer vision and
+          autonomous systems. I studied Cognitive Science and Architectural
+          History at Vanderbilt University, where I explored my passion for the
+          built environment, data-driven spatial research, and the science of
+          teaching and learning. I believe my multidisciplinary background will
+          enable me to play a meaningful role in shaping the future of urbanism
+          by leveraging today's technological advancements. <br /><br />
+
+          Outside of my studies, I love to play tennis,
+          <a
+            href="https://www.worldcubeassociation.org/persons/2024CHEN23"
+            target="_blank"
+            >speedcube</a
+          >
+          and cook.
+        </p>
+      </section>
+    </div>
+
+    <script>
+      const projectsLink = document.querySelector(".projects-link"); // projects link class
+      const aboutLink = document.querySelector(".about-link"); // about link class
+
+      const projectsSection = document.getElementById("project-section"); // default but swappable
+      const aboutSection = document.getElementById("about-section"); // hidden until requested
+
+      const leftContent = document.getElementById("left-content"); // left ID panel that can swap when called upon
+
+      const rightPanel = document.getElementById("right-panel"); // show/hide this ID when called
+      const panelContents = document.querySelectorAll(".panel-content"); // all panels
+
+      projectsLink.addEventListener("click", (e) => {
+        // function that waits for a click to occur, then responds
+        e.preventDefault();
+        leftContent.replaceChildren(projectsSection.cloneNode(true));
+        attachHoverListeners();
+      });
+
+      aboutLink.addEventListener("click", (e) => {
+        e.preventDefault();
+        leftContent.replaceChildren(aboutSection.cloneNode(true));
+      });
+
+      function attachHoverListeners() {
+        const mlProject = document.getElementById("ml-project"); // ML project hover link
+        const gsdProject = document.getElementById("design-portfolio");
+        const toponymyProject = document.getElementById("toponymy-project"); // ML project hover link
+        const georeferencingProject = document.getElementById(
+          "georeferencing-project"
+        );
+
+        mlProject.addEventListener("mouseenter", () =>
+          showPanel("classproject")
+        );
+        mlProject.addEventListener("mouseleave", hidePanel);
+
+        gsdProject.addEventListener("mouseenter", () =>
+          showPanel("gsdproject")
+        );
+        gsdProject.addEventListener("mouseleave", hidePanel);
+        georeferencingProject.addEventListener("mouseenter", () =>
+          showPanel("georeferencingproject")
+        );
+        georeferencingProject.addEventListener("mouseleave", hidePanel);
+        toponymyProject.addEventListener("mouseenter", () =>
+          showPanel("toponymyproject")
+        );
+        toponymyProject.addEventListener("mouseleave", hidePanel);
+      }
+
+      function showPanel(panelId) {
+        // show desired panel, hide others
+        panelContents.forEach((panel) => panel.classList.remove("active"));
+
+        const panelToShow = document.getElementById(panelId);
+        panelToShow.classList.add("active");
+        rightPanel.classList.add("active"); // make sure right panel exists to show content
+      }
+
+      function hidePanel() {
+        // hide right panel
+        rightPanel.classList.remove("active");
+        panelContents.forEach((panel) => panel.classList.remove("active"));
+      }
+
+      attachHoverListeners();
+      hidePanel();
+    </script>
+  </body>
+</html>

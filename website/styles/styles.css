@@ -1,0 +1,241 @@
+body {
+  background-color: #303631;
+  color: #daf2e2;
+  font-family: 'DM Sans', sans-serif;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  margin-top: 4rem;
+  padding: 0rem;
+}
+
+  .intro-top {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .name-block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center; 
+    align-items: center; 
+  }
+
+  .name-block #city {
+    font-size: 14px;
+    font-weight: normal;
+    opacity: .5;
+  }
+
+    #big-name {
+      font-family: 'Bodoni Moda', serif;
+      font-weight: 650;
+      font-style: italic;
+      font-size: 3rem;
+      align-items: center;
+      margin: 0;
+    }
+
+    #city {
+      font-family: 'Bodoni Moda', serif;
+      font-weight: 650;
+      font-style: italic;
+      font-size: 3rem;
+      align-items: center;
+      margin: 0;
+    }
+
+    .intro-top img {
+      width: 90px;
+      border-radius: 35px;
+      margin-right: 15px;
+      margin-left: 15px;
+      opacity: 0.9;
+      
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+      .social-links a img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .social-links a {
+        transition: transform 0.2s;
+      }
+
+      .social-links a:hover {
+        transform: scale(1.2);
+      }
+
+  .short-blurb p {
+    font-size: 14px;
+    font-family: "DM Sans"; 
+    font-style: italic;
+    font-weight: 300;
+    color: #daf2e2;
+    margin: 0;
+    opacity: 0.65;
+  }
+
+  nav {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  nav a {
+    color: #daf2e2;
+    opacity: 0.7;
+    margin-right: 0;
+    padding: 0 10px;
+    transition: transform 0.2s;
+    position: relative;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    opacity: 1.0;
+  }
+
+  .vertical-separator {
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background-color: #daf2e2; /* your separator color */
+    margin: 0px;            /* spacing between text and line */
+    opacity: 0.7;  
+  }
+
+  .page-layout {
+    display: flex;
+    gap: 20px;
+  }
+
+  .left-panel {
+    width: 33%;
+  }
+
+  .left-panel div:hover {
+    cursor: pointer;
+  }
+
+  #left-content h3, h2 {
+    margin-bottom: 0.25rem; /* reduce space below header */
+    margin-left: 0.5rem;
+    
+  }
+
+  #left-content h3 a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  #left-content p {
+    margin-top: 0rem;
+    font-size: 14px;
+    margin-left: 0.5rem;
+    opacity: 0.6;
+  }
+
+  #left-content h3 a:hover {
+    color: #FFF;
+  }
+
+  .section-separator {
+    padding: 2px 0;
+    border-bottom: 0.5px solid #daf2e2;
+    opacity: 0.4;
+  }
+
+  #right-panel {
+    position: absolute;
+    right: 6rem;
+    top: 10rem;
+    bottom: 10rem;
+    width: calc(50% - 6rem);
+    flex: 1;
+    opacity: 0;
+    background-color:#545c57;
+    transform: translateX(30px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+    border-radius: 15px;
+  }
+
+  #right-panel.active {
+    opacity: 1;
+    transform: translateX(0px);
+    pointer-events: auto;
+  }
+
+  .panel-content {
+    padding: 4rem 3rem;
+    opacity: 0.0;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  #map-previews {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: 0 auto;
+    gap: 100px;
+  }
+
+  #map-previews img {
+    width: 250px;
+    border-radius: 25px;
+  }
+
+  #arch-previews {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: 0 auto;
+    gap: 10px;
+  }
+
+  #arch-previews img {
+    margin-top: 20px;
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    height: auto;
+  }
+
+  .panel-content.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .panel-content h4 {
+    margin-bottom: 0;
+  }
+
+  .panel-content p {
+    margin-top: 0.25rem;
+    opacity: 0.8;
+  }
+
+  #about-section p {
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 250;
+  }
+
+  #about-section a{
+    color: #daf2e2;
+  }
