@@ -63,6 +63,18 @@
 
         <div id="left-content">
           <section id="project-section">
+            <div id="vip-smur">
+              <h3>
+                <a
+                  href="https://vip-smur.github.io/projects/26sp/"
+                  target="_blank"
+                  >Vertically Integrated Project - Surrogate Modeling for Urban Regeneration</a
+                >
+              </h3>
+              <p>
+                Exploration of modern advances in machine learning to predict complex wind fields in urban environments
+              </p>
+            </div>
             <div id="ml-project">
               <h3>
                 <a
@@ -120,20 +132,36 @@
 
       <!-- Right Panel -->
       <div id="right-panel">
+        <div id="vipsmur" class="panel-content">
+          <h3>VIP-SMUR - Wind Comfort ML Team</h3>
+          <h4>Fall 2025</h4>
+          <p>
+            Computational Fluid Dynamics (CFD) simulations is a mathematical approach to solving fluid flow problems, and while they are the closest known
+            approximator of fluid simualtions, they are notoriously computationally expensive, as a single simulation could take up to weeks to run. 
+
+            Engineers and architects benefit from CFD when modeling wind in simulated urban plans, yet don't have this time to afford early in the ideation phase of their design process, so using CFD is almost always out of the question
+            until much later in the design process. 
+            
+            Machine learning-based surorgate models have emerged as a strong alternative to predicting such wind flow. In this research project, I explore the young literature in this field and various
+            models and architectures to implement a model that can approximate the wind flow of a CFD simulation — in no more than a second. The best candidate models vary tremendously in 
+            motivation and architecture, from CNNs in latent/fourier space to physics-informed transformer networks, constituting an exciting, rich field of research that boasts the potential to revolutionize engineering practices.
+          </p>
         <div id="classproject" class="panel-content">
           <h3>3D Gaussian Splatting Project</h3>
           <h4>Fall 2025</h4>
           <p>
-            Semester-long Machine Learning (CS7641) project mixing computer
-            vision techniques to reconstruct 3D environments from 2D images. Our
-            goal is to implement an end-to-end pipeline of reconstructing 3D
-            scenes from a mixed collection of unfiltered, public 2D images,
+            Semester-long Machine Learning (CS7641) project mixing computer vision techniques to reconstruct 3D environments from 2D images. 
+            Implemented an end-to-end pipeline of reconstructing 3D scenes from a mixed collection of unfiltered, public 2D images,
             utilizing and comparing various new methods in computer vision,
-            notably image classification techniques and gaussian splatting.
+            notably image classification techniques and gaussian splatting. 
+
+            Used a CLIP model for image classification, followed by a comparison of 3 camera pose estimation methods, including classical COLMAP, 
+            neural-network based PoseNet, and designed and trained a pose refinement model that would correct errors made by COLMAP, which succeeded in 
+            decreasing the error of COLMAP by 9% on average.
           </p>
         </div>
         <div id="toponymyproject" class="panel-content">
-          <h3>Neighborhood Topnymy Project</h3>
+          <h3>Neighborhood Toponymy Project</h3>
           <h4>Fall 2023</h4>
           <p>
             My final project for Intro to GIS and Remote Systems class examines
