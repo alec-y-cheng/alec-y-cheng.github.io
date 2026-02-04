@@ -288,6 +288,7 @@
       });
 
       function attachHoverListeners() {
+        const vipSmurProject = document.getElementById("vip-smur"); // ML project hover link
         const mlProject = document.getElementById("ml-project"); // ML project hover link
         const gsdProject = document.getElementById("design-portfolio");
         const toponymyProject = document.getElementById("toponymy-project"); // ML project hover link
@@ -295,6 +296,10 @@
           "georeferencing-project"
         );
 
+        vipSmurProject.addEventListener("mouseenter", () =>
+          showPanel("vip-smur")
+        );
+        vipSmurProject.addEventListener("mouseleave", hidePanel);
         mlProject.addEventListener("mouseenter", () =>
           showPanel("classproject")
         );
