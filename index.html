@@ -1,5 +1,5 @@
 <!-- file type declaration -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -68,11 +68,12 @@
                 <a
                   href="https://vip-smur.github.io/projects/26sp/"
                   target="_blank"
-                  >Vertically Integrated Project - Surrogate Modeling for Urban Regeneration</a
+                  >Sustainable Urban Systems — Wind Comfort ML</a
                 >
               </h3>
               <p>
-                Exploration of modern advances in machine learning to predict complex wind fields in urban environments
+                Exploration of modern advances in machine learning to predict
+                complex wind fields in urban environments
               </p>
             </div>
             <div id="ml-project">
@@ -80,7 +81,7 @@
                 <a
                   href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
                   target="_blank"
-                  >Machine Learning</a
+                  >3D Scene Reconstruction Project</a
                 >
               </h3>
               <p>
@@ -126,6 +127,46 @@
                 identity through space
               </p>
             </div>
+            <div id="ImmerseGT Hackathon Project">
+              <h3>
+                <a
+                  href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
+                  target="_blank"
+                  >Campus Simulator Project</a
+                >
+              </h3>
+              <p>Project description here</p>
+            </div>
+            <div id="Human pose estimator project and paper">
+              <h3>
+                <a
+                  href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
+                  target="_blank"
+                  >Hackathon Project</a
+                >
+              </h3>
+              <p>Project description here</p>
+            </div>
+            <div id="Campus simulator project">
+              <h3>
+                <a
+                  href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
+                  target="_blank"
+                  >Human Pose Estimator Project</a
+                >
+              </h3>
+              <p>Project description here</p>
+            </div>
+            <div id="Soccer twos project">
+              <h3>
+                <a
+                  href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
+                  target="_blank"
+                  >Soccer Twos Project</a
+                >
+              </h3>
+              <p>Project description here</p>
+            </div>
           </section>
         </div>
       </div>
@@ -136,29 +177,44 @@
           <h3>VIP-SMUR - Wind Comfort ML Team</h3>
           <h4>Spring 2026</h4>
           <p>
-            Computational Fluid Dynamics (CFD) simulations is a mathematical approach to solving fluid flow problems, and while they are the closest known
-            approximator of fluid simualtions, they are notoriously computationally expensive, as a single simulation could take up to weeks to run. <br /><br />
+            Computational Fluid Dynamics (CFD) simulations is a mathematical
+            approach to solving fluid flow problems, and while they are the
+            closest known approximator of fluid simualtions, they are
+            notoriously computationally expensive, as a single simulation could
+            take up to weeks to run. <br /><br />
 
-            Engineers and architects benefit from CFD when modeling wind in simulated urban plans, yet don't have this time to afford early in the ideation phase of their design process, so using CFD is almost always out of the question
-            until much later in the design process. <br /><br />
-            
-            Machine learning-based surorgate models have emerged as a strong alternative to predicting such wind flow. In this research project, I explore the young literature in this field and various
-            models and architectures to implement a model that can approximate the wind flow of a CFD simulation — in no more than a second. The best candidate models vary tremendously in 
-            motivation and architecture, from CNNs in latent/fourier space to physics-informed transformer networks, constituting an exciting, rich field of research that boasts the potential to revolutionize engineering practices.
+            Engineers and architects benefit from CFD when modeling wind in
+            simulated urban plans, yet don't have this time to afford early in
+            the ideation phase of their design process, so using CFD is almost
+            always out of the question until much later in the design process.
+            <br /><br />
+
+            Machine learning-based surorgate models have emerged as a strong
+            alternative to predicting such wind flow. In this research project,
+            I explore the young literature in this field and various models and
+            architectures to implement a model that can approximate the wind
+            flow of a CFD simulation — in no more than a second. The best
+            candidate models vary tremendously in motivation and architecture,
+            from CNNs in latent/fourier space to physics-informed transformer
+            networks, constituting an exciting, rich field of research that
+            boasts the potential to revolutionize engineering practices.
           </p>
         </div>
         <div id="classproject" class="panel-content">
           <h3>3D Gaussian Splatting Project</h3>
           <h4>Fall 2025</h4>
           <p>
-            Semester-long Machine Learning (CS7641) project mixing computer vision techniques to reconstruct 3D environments from 2D images. 
-            Implemented an end-to-end pipeline of reconstructing 3D scenes from a mixed collection of unfiltered, public 2D images,
-            utilizing and comparing various new methods in computer vision,
-            notably image classification techniques and gaussian splatting. 
-
-            Used a CLIP model for image classification, followed by a comparison of 3 camera pose estimation methods, including classical COLMAP, 
-            neural-network based PoseNet, and designed and trained a pose refinement model that would correct errors made by COLMAP, which succeeded in 
-            decreasing the error of COLMAP by 9% on average.
+            Semester-long Machine Learning (CS7641) project mixing computer
+            vision techniques to reconstruct 3D environments from 2D images.
+            Implemented an end-to-end pipeline of reconstructing 3D scenes from
+            a mixed collection of unfiltered, public 2D images, utilizing and
+            comparing various new methods in computer vision, notably image
+            classification techniques and gaussian splatting. Used a CLIP model
+            for image classification, followed by a comparison of 3 camera pose
+            estimation methods, including classical COLMAP, neural-network based
+            PoseNet, and designed and trained a pose refinement model that would
+            correct errors made by COLMAP, which succeeded in decreasing the
+            error of COLMAP by 9% on average.
           </p>
         </div>
         <div id="toponymyproject" class="panel-content">
@@ -294,28 +350,28 @@
         const gsdProject = document.getElementById("design-portfolio");
         const toponymyProject = document.getElementById("toponymy-project"); // ML project hover link
         const georeferencingProject = document.getElementById(
-          "georeferencing-project"
+          "georeferencing-project",
         );
 
         vipSmurProject.addEventListener("mouseenter", () =>
-          showPanel("vipsmur")
+          showPanel("vipsmur"),
         );
         vipSmurProject.addEventListener("mouseleave", hidePanel);
         mlProject.addEventListener("mouseenter", () =>
-          showPanel("classproject")
+          showPanel("classproject"),
         );
         mlProject.addEventListener("mouseleave", hidePanel);
 
         gsdProject.addEventListener("mouseenter", () =>
-          showPanel("gsdproject")
+          showPanel("gsdproject"),
         );
         gsdProject.addEventListener("mouseleave", hidePanel);
         georeferencingProject.addEventListener("mouseenter", () =>
-          showPanel("georeferencingproject")
+          showPanel("georeferencingproject"),
         );
         georeferencingProject.addEventListener("mouseleave", hidePanel);
         toponymyProject.addEventListener("mouseenter", () =>
-          showPanel("toponymyproject")
+          showPanel("toponymyproject"),
         );
         toponymyProject.addEventListener("mouseleave", hidePanel);
       }
