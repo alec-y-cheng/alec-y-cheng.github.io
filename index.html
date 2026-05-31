@@ -63,7 +63,7 @@
 
         <div id="left-content">
           <section id="project-section">
-            <div id="vip-smur">
+            <div id="vip-smur" class="project-item" data-panel="vipsmur">
               <h3>
                 <a
                   href="https://vip-smur.github.io/projects/26sp/"
@@ -76,7 +76,7 @@
                 complex wind fields in urban environments
               </p>
             </div>
-            <div id="ml-project">
+            <div id="ml-project" class="project-item" data-panel="classproject">
               <h3>
                 <a
                   href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
@@ -88,7 +88,11 @@
                 Class project for CS7641, investigating 3D Gaussian Splatting
               </p>
             </div>
-            <div id="toponymy-project">
+            <div
+              id="toponymy-project"
+              class="project-item"
+              data-panel="toponymyproject"
+            >
               <h3>
                 <a
                   href="https://storymaps.arcgis.com/stories/7afa476b89934014a43160e7381f087a"
@@ -101,7 +105,11 @@
                 income
               </p>
             </div>
-            <div id="georeferencing-project">
+            <div
+              id="georeferencing-project"
+              class="project-item"
+              data-panel="georeferencingproject"
+            >
               <h3>
                 <a
                   href="https://william-edmondson-homesite-vanderbilt.hub.arcgis.com/pages/9251088aff65402ba45daa1cddd97593"
@@ -114,7 +122,11 @@
                 through georeferencing
               </p>
             </div>
-            <div id="design-portfolio">
+            <div
+              id="design-portfolio"
+              class="project-item"
+              data-panel="gsdproject"
+            >
               <h3>
                 <a
                   href="https://issuu.com/umpubalec/docs/alec_cheng_portfolio123"
@@ -127,7 +139,11 @@
                 identity through space
               </p>
             </div>
-            <div id="campus-simulator">
+            <div
+              id="campus-simulator"
+              class="project-item"
+              data-panel="campussimulator"
+            >
               <h3>
                 <a
                   href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
@@ -137,7 +153,7 @@
               </h3>
               <p>Project description here</p>
             </div>
-            <div id="immerse-gt">
+            <div id="immerse-gt" class="project-item" data-panel="immersegt">
               <h3>
                 <a
                   href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
@@ -147,7 +163,7 @@
               </h3>
               <p>Project description here</p>
             </div>
-            <div id="campus-simulator">
+            <div id="campus-simulator" class="project-item" data-panel="test">
               <h3>
                 <a
                   href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
@@ -157,7 +173,7 @@
               </h3>
               <p>Project description here</p>
             </div>
-            <div id="soccer-twos">
+            <div id="soccer-twos" class="project-item" data-panel="soccertwos">
               <h3>
                 <a
                   href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
@@ -167,7 +183,7 @@
               </h3>
               <p>Project description here</p>
             </div>
-            <div id="arch-thesis">
+            <div id="arch-thesis" class="project-item" data-panel="archthesis">
               <h3>
                 <a
                   href="./assets/i-believe-in-nashville.pdf"
@@ -357,35 +373,15 @@
       });
 
       function attachHoverListeners() {
-        const vipSmurProject = document.getElementById("vip-smur"); // ML project hover link
-        const mlProject = document.getElementById("ml-project"); // ML project hover link
-        const gsdProject = document.getElementById("design-portfolio");
-        const toponymyProject = document.getElementById("toponymy-project"); // ML project hover link
-        const georeferencingProject = document.getElementById(
-          "georeferencing-project",
-        );
+        const projectItems = document.querySelectorAll(".project-item");
 
-        vipSmurProject.addEventListener("mouseenter", () =>
-          showPanel("vipsmur"),
-        );
-        vipSmurProject.addEventListener("mouseleave", hidePanel);
-        mlProject.addEventListener("mouseenter", () =>
-          showPanel("classproject"),
-        );
-        mlProject.addEventListener("mouseleave", hidePanel);
+        projectItems.forEach((item) => {
+          item.addEventListener("mouseenter", () => {
+            showPanel(item.dataset.panel);
+          });
 
-        gsdProject.addEventListener("mouseenter", () =>
-          showPanel("gsdproject"),
-        );
-        gsdProject.addEventListener("mouseleave", hidePanel);
-        georeferencingProject.addEventListener("mouseenter", () =>
-          showPanel("georeferencingproject"),
-        );
-        georeferencingProject.addEventListener("mouseleave", hidePanel);
-        toponymyProject.addEventListener("mouseenter", () =>
-          showPanel("toponymyproject"),
-        );
-        toponymyProject.addEventListener("mouseleave", hidePanel);
+          item.addEventListener("mouseleave", hidePanel);
+        });
       }
 
       function showPanel(panelId) {
