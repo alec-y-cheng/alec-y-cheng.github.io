@@ -66,26 +66,71 @@
             <div id="vip-smur" class="project-item" data-panel="vipsmur">
               <h3>
                 <a
-                  href="https://vip-smur.github.io/projects/26sp/"
+                  href="https://vip-smur.github.io/26sp-windcomfort-ml/"
                   target="_blank"
-                  >Sustainable Urban Systems — Wind Comfort ML</a
+                  >Surrogate Machine Learning for Fluid Dynamics</a
                 >
               </h3>
               <p>
                 Exploration of modern advances in machine learning to predict
-                complex wind fields in urban environments
+                complex urban wind fields
+              </p>
+            </div>
+            <div
+              id="campus-simulator"
+              class="project-item"
+              data-panel="campussimulator"
+            >
+              <h3>
+                <a
+                  href="../assets/campussimulation/Final_Project_Group17.pdf"
+                  target="_blank"
+                  >Georgia Tech Campus Simulator</a
+                >
+              </h3>
+              <p>
+                Large-scale sporting event simulation on Georgia Tech Campus
               </p>
             </div>
             <div id="ml-project" class="project-item" data-panel="classproject">
               <h3>
-                <a
-                  href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
-                  target="_blank"
+                <a href="projects/7641.html" target="_blank"
                   >3D Scene Reconstruction Project</a
                 >
               </h3>
               <p>
-                Class project for CS7641, investigating 3D Gaussian Splatting
+                Mixing computer vision techniques to reconstruct 3D environments
+                from 2D images.
+              </p>
+            </div>
+            <div
+              id="pose-estimator"
+              class="project-item"
+              data-panel="poseestimator"
+            >
+              <h3>
+                <a
+                  href="https://github.com/JasonLai150/2.5DPoseEstimator/blob/main/CS7643_Final_Report.pdf"
+                  target="_blank"
+                  >Training More Robust Human Pose Estimators</a
+                >
+              </h3>
+              <p>
+                Improving the performance of 3D human pose estimators in
+                specialized domains
+              </p>
+            </div>
+            <div id="immerse-gt" class="project-item" data-panel="immersegt">
+              <h3>
+                <a
+                  href="https://devpost.com/software/iamnotia-from-ruin-to-memory"
+                  target="_blank"
+                  >ImmerseGT 2026 Hackathon Winner</a
+                >
+              </h3>
+              <p>
+                Extended reality project exploring crowdsourcing historical
+                narratives and reimagining history
               </p>
             </div>
             <div
@@ -122,6 +167,19 @@
                 through georeferencing
               </p>
             </div>
+            <div id="soccer-twos" class="project-item" data-panel="soccertwos">
+              <h3>
+                <a
+                  href="https://github.com/alec-y-cheng/soccer-twos-starter/tree/main?tab=readme-ov-file"
+                  target="_blank"
+                  >Learning to Play Soccer with Reinforcement Learning</a
+                >
+              </h3>
+              <p>
+                Training an agent to play a 2v2 soccer game using advanced RL
+                techniques
+              </p>
+            </div>
             <div
               id="design-portfolio"
               class="project-item"
@@ -139,50 +197,6 @@
                 identity through space
               </p>
             </div>
-            <div
-              id="campus-simulator"
-              class="project-item"
-              data-panel="campussimulator"
-            >
-              <h3>
-                <a
-                  href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
-                  target="_blank"
-                  >Campus Simulator Project</a
-                >
-              </h3>
-              <p>Project description here</p>
-            </div>
-            <div id="immerse-gt" class="project-item" data-panel="immersegt">
-              <h3>
-                <a
-                  href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
-                  target="_blank"
-                  >Hackathon Project</a
-                >
-              </h3>
-              <p>Project description here</p>
-            </div>
-            <div id="campus-simulator" class="project-item" data-panel="test">
-              <h3>
-                <a
-                  href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
-                  target="_blank"
-                  >Human Pose Estimator Project</a
-                >
-              </h3>
-              <p>Project description here</p>
-            </div>
-            <div id="soccer-twos" class="project-item" data-panel="soccertwos">
-              <h3>
-                <a
-                  href="https://github.gatech.edu/pages/ychoudhary7/cs7641-project/"
-                  target="_blank"
-                  >Soccer Twos Project</a
-                >
-              </h3>
-              <p>Project description here</p>
-            </div>
             <div id="arch-thesis" class="project-item" data-panel="archthesis">
               <h3>
                 <a
@@ -190,10 +204,13 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Arch thesis
+                  Monuments & Memorials Thesis
                 </a>
               </h3>
-              <p>Project description here</p>
+              <p>
+                Exposing the relationship between a city's public emblem and its
+                charged history
+              </p>
             </div>
           </section>
         </div>
@@ -202,66 +219,104 @@
       <!-- Right Panel -->
       <div id="right-panel">
         <div id="vipsmur" class="panel-content">
-          <h3>VIP-SMUR - Wind Comfort ML Team</h3>
-          <h4>Spring 2026</h4>
+          <section id="vipsmur-previews">
+            <video id="vipsmur-video" autoplay loop muted playsinline>
+              <source
+                src="assets/windcomfort/videos/windcomfortdemo.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <img
+              src="assets/windcomfort/images/sample_796.png"
+              alt="Diffusion model example"
+            />
+          </section>
+          <h3>Sustainable Urban Systems Lab — Wind Comfort ML Team</h3>
+          <h4>Spring 2026—</h4>
           <p>
             Computational Fluid Dynamics (CFD) simulations is a mathematical
             approach to solving fluid flow problems, and while they are the
-            closest known approximator of fluid simualtions, they are
-            notoriously computationally expensive, as a single simulation could
-            take up to weeks to run. <br /><br />
+            closest known approximator of fluid simualtions, they are notorious
+            for being computationally expensive, as a single simulation could
+            take up to weeks to solve. <br /><br />
 
             Engineers and architects benefit from CFD when modeling wind in
-            simulated urban plans, yet don't have this time to afford early in
-            the ideation phase of their design process, so using CFD is almost
+            simulated urban plans as a way to predict pedestrian comfort on the
+            ground level, yet often don't have this time to afford early in the
+            ideation phase of their design process, so using CFD is almost
             always out of the question until much later in the design process.
             <br /><br />
 
             Machine learning-based surorgate models have emerged as a strong
-            alternative to predicting such wind flow. In this research project,
-            I explore the young literature in this field and various models and
-            architectures to implement a model that can approximate the wind
-            flow of a CFD simulation — in no more than a second. The best
-            candidate models vary tremendously in motivation and architecture,
-            from CNNs in latent/fourier space to physics-informed transformer
-            networks, constituting an exciting, rich field of research that
-            boasts the potential to revolutionize engineering practices.
+            alternative to predicting such wind flow, accurately approximating
+            the solutions to complex CFD problems in no more than a second. The
+            best candidate models vary tremendously in motivation and
+            architecture, from CNNs in latent/fourier space to physics-informed
+            transformer networks, constituting an exciting, rich field of
+            research that can make complicated engineering and design practices
+            much more accessible.
           </p>
         </div>
         <div id="classproject" class="panel-content">
-          <h3>3D Gaussian Splatting Project</h3>
+          <section id="cs7641-previews">
+            <video id="cs7641video" autoplay loop muted playsinline>
+              <source
+                src="assets/7641/videos/taj_mahal_final_6999.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </section>
+          <h3>Image Classification and Scene Reconstruction</h3>
           <h4>Fall 2025</h4>
           <p>
-            Semester-long Machine Learning (CS7641) project mixing computer
-            vision techniques to reconstruct 3D environments from 2D images.
-            Implemented an end-to-end pipeline of reconstructing 3D scenes from
-            a mixed collection of unfiltered, public 2D images, utilizing and
-            comparing various new methods in computer vision, notably image
-            classification techniques and gaussian splatting. Used a CLIP model
-            for image classification, followed by a comparison of 3 camera pose
-            estimation methods, including classical COLMAP, neural-network based
-            PoseNet, and designed and trained a pose refinement model that would
-            correct errors made by COLMAP, which succeeded in decreasing the
-            error of COLMAP by 9% on average.
+            Implemented an end-to-end pipeline of computer vision techniques to
+            reconstruct 3D scenes from a mixed collection of unfiltered,
+            crowdsourced 2D images. This pipeline used a CLIP model for image
+            classification, followed by a comparison of 3 camera pose estimation
+            methods, and finally gaussian splatting for the rendering.
+            Experiments of these 3 types of camera pose estimation models, with
+            classical COLMAP as a baseline, neural-network-based PoseNet, and a
+            novel pose refinement model, revealed that PoseNet performed best
+            (25% improvement) at the cost of long training time, while the
+            simple neural network pose refinement model still succeeded in
+            decreasing the error of COLMAP by 9% on average.
+          </p>
+        </div>
+        <div id="poseestimator" class="panel-content">
+          <section id="pose-previews">
+            <img
+              src="../assets/7643/fit3dsample.png"
+              alt="Pose estimation task example"
+            />
+          </section>
+          <h3>
+            A 2.5D Approach to Training Robust 3D Pose Estimators in Specialized
+            Execise Settings
+          </h3>
+          <h4>Spring 2026</h4>
+          <p>
+            The biggest challenge in training robust 3D human pose estimators is
+            that most large-scale annotated 3D datasets come from sterile,
+            clean, lab environments, and thus these models don't generalize well
+            to diverse settings, like when poses are in unusual positions. This
+            project investigates whether we can capitilize on the abundance and
+            diversity of 2D datasets in training 3D pose estimators that perform
+            well even in highly specialized domains.
+            <br /><br />
+            This research project explored using either target or
+            non-target-domain 2D data to improve the generalizability of the 3D
+            pose estimator by subjecting the estimator to a 2D reprojection
+            loss. An skeleton-bridging autoencoder was also proposed as a way to
+            aggregate multiple 2D datasets for more training data.
+            <br /><br />
+            Results show that both using target-domain 2D pseudolabels or
+            non-target 2D data indeed improved the generalizability of the model
+            and succeded in reducing the loss of 3D human pose estimators
+            significantly when evaluated on a gym exercise domain, and we
+            believe it would work on other similarly specialized environments.
           </p>
         </div>
         <div id="toponymyproject" class="panel-content">
-          <h3>Neighborhood Toponymy Project</h3>
-          <h4>Fall 2023</h4>
-          <p>
-            My final project for Intro to GIS and Remote Systems class examines
-            the relationship between median household income and neighborhood
-            toponymy, the study of place names. This project examined 19 types
-            of common place suffixes (e.g. containing the word "park",
-            "heights", etc.) across 27 of the largest US cities (3721
-            neighborhoods in total), and the local and global patterns in
-            income. <br /><br />
-            Using hot spot analysis and statistical tests on income aggregated
-            on neighborhood name, no statistically significant correlation was
-            found between neighborhood name and income. However, many local
-            patterns hinted at a mediating role that geography plays in income
-            differences that are present.
-          </p>
           <section id="map-previews">
             <img
               src="images/LA_Heights_Terrain.png"
@@ -272,6 +327,21 @@
               alt="Map of median income in Hills neighborhoods in LA"
             />
           </section>
+          <h3>Neighborhood Toponymy Project</h3>
+          <h4>Fall 2023</h4>
+          <p>
+            Project for GIS and Remote Systems class examines the relationship
+            between median household income and neighborhood toponymy, the study
+            of place names. This project examined 19 types of common place
+            suffixes (e.g. containing the word "park", "heights", etc.) across
+            27 of the largest US cities (3721 neighborhoods in total), and the
+            local and global patterns in income. <br /><br />
+            Using hot spot analysis and statistical tests on income aggregated
+            on neighborhood name, no statistically significant correlation was
+            found between neighborhood name and income. However, many local
+            patterns hinted at a mediating role that geography plays in income
+            differences that are present.
+          </p>
         </div>
         <div id="georeferencingproject" class="panel-content">
           <h3>William Edmondson Homesite Project</h3>
@@ -295,6 +365,16 @@
           </p>
         </div>
         <div id="gsdproject" class="panel-content">
+          <section id="arch-previews">
+            <img
+              src="images/gsd_backyard.png"
+              alt="3D model of GSD architecture project"
+            />
+            <img
+              src="images/traditionalbuddhist.png"
+              alt="Collage of drawings and photos taken in Mongolia"
+            />
+          </section>
           <h3>M.Arch Portfolio</h3>
           <h4>Fall 2024</h4>
           <p>
@@ -310,16 +390,57 @@
             media can be expressed succintly, whether that be through 3D space,
             multimedia maps, or collages.
           </p>
-          <section id="arch-previews">
-            <img
-              src="images/gsd_backyard.png"
-              alt="3D model of GSD architecture project"
-            />
-            <img
-              src="images/traditionalbuddhist.png"
-              alt="Collage of drawings and photos taken in Mongolia"
+        </div>
+        <div id="campussimulator" class="panel-content">
+          <section id="crowd-previews">
+            <video
+              id="campussimulationvideo"
+              autoplay
+              loop
+              muted
+              playsinline
+              src="./assets/campussimulation/simulation.mp4"
+              alt="Campus simulation gif"
             />
           </section>
+          <h3>Campus Simulator Project</h3>
+          <h4>Spring 2026</h4>
+          <p>
+            Simulation of a large scale sporting event on Georgia Tech's campus.
+            Involved in depth review of literature into modeling pedestrian
+            flow. As opposed to macroscopic models like Hughes' model for
+            pedestrian dynamics, we opted for an individual agent-based social
+            model that represents agent movement motivation as a series of
+            ordinary differential equations. We apply this logic to simulate the
+            plausible traffic and congestion that would take place if a large
+            sporting event took place on Georgia Tech's campus.
+          </p>
+        </div>
+        <div id="immersegt" class="panel-content">
+          <section id="immersegt-previews">
+            <img src="../assets/tanit/image.png" alt="XR sample" />
+          </section>
+          <h3>From Mystery to History</h3>
+          <h4>Spring 2026</h4>
+          <p>
+            Designed for ImmerseGT26's historical preservation track sponsored
+            by TanitXR, Mystery to History is a Snapchat XR Spectacles
+            application that crowdsources public narratives, documents
+            collective memory, and reimagines history. <br /><br />
+            Users are encouraged to photograph meaningful snapshots of their
+            local public spaces. The application aggregates these images based
+            on location, and as it accrues more users who photograph the same
+            subjects and locations, a unified 3D model can iteratively be added
+            to and refined through stereogrammetry techniques. We can use this
+            collective 3D model as a monument to what is considered meaningful
+            to local communities, and begin to record a history where we
+            document how these spaces change over time. In addition to
+            crowdsourcing local history, the app uses machine learning models in
+            point cloud completion to imagine what certain documented artifacts
+            might have looked like prior to ruin, serving as an instructive tool
+            in motivating people to inquire, document, and learn about the
+            global and local past.
+          </p>
         </div>
       </div>
     </main>
@@ -401,6 +522,9 @@
 
       attachHoverListeners();
       hidePanel();
+
+      const cs7641video = document.getElementById("cs7641video");
+      cs7641video.playbackRate = 0.25;
     </script>
   </body>
 </html>

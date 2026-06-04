@@ -203,6 +203,36 @@ body {
     opacity: 0.8;
   }
 
+  #vipsmur-previews {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 3rem;
+  }
+
+  #vipsmur-previews img,
+  #vipsmur-previews video {
+    width: auto;
+    height: 11rem;
+    border-radius: 1.5rem;
+    object-fit: contain;
+  }
+
+  #cs7641-previews {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: 0 auto;
+    gap: 6rem;
+  }
+
+  #cs7641-previews video {
+    width: 100%;
+    max-width: 30rem;
+    border-radius: 1rem;
+  }
+
   #map-previews {
     display: flex;
     flex-direction: row;
@@ -221,16 +251,62 @@ body {
     flex-direction: row;
     width: max-content;
     margin: 0 auto;
-    gap: 5rem;
+    gap: 6rem;
   }
 
   #arch-previews img {
-    margin-top: 1.2rem;
-    width: 15rem;
+    width: 20rem;
     height: auto;
     object-fit: contain;
-    height: auto;
+    border-radius: 1.5rem;
   }
+
+
+  #crowd-previews {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: 0 auto;
+    gap: 6rem;
+  }
+
+  #crowd-previews video {
+    width: 35rem;
+    height: auto;
+    object-fit: contain;
+    border-radius: 1.5rem;
+  }
+
+  #pose-previews {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: 0 auto;
+    gap: 6rem;
+  }
+
+  #pose-previews img {
+    width: 45rem;
+    height: auto;
+    object-fit: contain;
+    border-radius: 1.5rem;
+  }
+
+  #immersegt-previews {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: 0 auto;
+    gap: 6rem;
+  }
+
+  #immersegt-previews img {
+    width: 25rem;
+    height: auto;
+    object-fit: contain;
+    border-radius: 1.5rem;
+  }
+
 
   #about-section p {
     margin-top: 1rem;
