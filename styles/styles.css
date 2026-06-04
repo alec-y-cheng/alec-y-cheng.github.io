@@ -307,6 +307,36 @@ body {
     border-radius: 1.5rem;
   }
 
+  #soccertwos-previews {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: 0 auto;
+    gap: 6rem;
+  }
+
+  #soccertwos-previews video {
+    width: 25rem;
+    height: auto;
+    object-fit: contain;
+    border-radius: 1.5rem;
+  }
+
+  #archthesis-previews {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: 0 auto;
+    gap: 6rem;
+  }
+
+  #archthesis-previews img {
+    width: 25rem;
+    height: auto;
+    object-fit: contain;
+    border-radius: 1.5rem;
+  }
+
 
   #about-section p {
     margin-top: 1rem;
