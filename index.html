@@ -562,13 +562,42 @@
         panelContents.forEach((panel) => panel.classList.remove("active"));
 
         const panelToShow = document.getElementById(panelId);
+        if (!panelToShow) return;
+
         panelToShow.classList.add("active");
         rightPanel.classList.add("active"); // make sure right panel exists to show content
+        requestAnimationFrame(updatePanelFit);
+      }
+
+      function updatePanelFit() {
+        const activePanel = document.querySelector(".panel-content.active");
+        if (!activePanel) return;
+
+        rightPanel.classList.remove(
+          "hide-previews",
+          "content-does-not-fit",
+        );
+
+        const contentFits = () =>
+          activePanel.scrollWidth <= rightPanel.clientWidth + 1 &&
+          activePanel.scrollHeight <= rightPanel.clientHeight + 1;
+
+        if (contentFits()) return;
+
+        rightPanel.classList.add("hide-previews");
+
+        if (!contentFits()) {
+          rightPanel.classList.add("content-does-not-fit");
+        }
       }
 
       function hidePanel() {
         // hide right panel
-        rightPanel.classList.remove("active");
+        rightPanel.classList.remove(
+          "active",
+          "hide-previews",
+          "content-does-not-fit",
+        );
         panelContents.forEach((panel) => panel.classList.remove("active"));
       }
 
@@ -577,6 +606,16 @@
 
       const cs7641video = document.getElementById("cs7641video");
       cs7641video.playbackRate = 0.25;
+
+      window.addEventListener("resize", updatePanelFit);
+
+      rightPanel.querySelectorAll("img").forEach((image) => {
+        image.addEventListener("load", updatePanelFit);
+      });
+
+      rightPanel.querySelectorAll("video").forEach((video) => {
+        video.addEventListener("loadedmetadata", updatePanelFit);
+      });
     </script>
   </body>
 </html>
