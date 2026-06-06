@@ -220,14 +220,13 @@ body {
 
   .panel-content > section img,
   .panel-content > section video {
-    --preview-radius: 1.5rem;
     display: block;
     min-width: 0;
     max-width: 100%;
-    max-height: 28vh;
-    object-fit: contain;
-    border-radius: var(--preview-radius);
-    clip-path: inset(0 round var(--preview-radius));
+    height : auto;
+    border-radius:1.5rem;
+    object-fit : contain;
+    overflow : hidden;
   }
 
   #vipsmur-previews {
@@ -240,25 +239,27 @@ body {
 
   #vipsmur-previews img,
   #vipsmur-previews video {
+    flex: 0 0 auto;
     width: auto;
-    height: 11rem;
+    height: 7rem;
+    max-width: none;
     border-radius: 1.5rem;
-    object-fit: contain;
+    overflow: hidden;
   }
 
   #cs7641-previews {
     display: flex;
     flex-direction: row;
     width: max-content;
+    height:14rem;
     margin: 0 auto;
     gap: 6rem;
   }
 
   #cs7641-previews video {
-    --preview-radius: 1rem;
     width: 100%;
     max-width: 30rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
   }
 
   #map-previews {
@@ -271,7 +272,6 @@ body {
 
   #map-previews img {
     width: 15rem;
-    border-radius: 1.5rem;
   }
 
   #arch-previews {
@@ -285,8 +285,6 @@ body {
   #arch-previews img {
     width: 20rem;
     height: auto;
-    object-fit: contain;
-    border-radius: 1.5rem;
   }
 
 
@@ -299,10 +297,8 @@ body {
   }
 
   #crowd-previews video {
-    width: 35rem;
-    height: auto;
-    object-fit: contain;
-    border-radius: 1.5rem;
+    width: auto;
+    height: 20rem;
   }
 
   #pose-previews {
@@ -314,10 +310,8 @@ body {
   }
 
   #pose-previews img {
-    width: 45rem;
-    height: auto;
-    object-fit: contain;
-    border-radius: 1.5rem;
+    width: auto;
+    height: 10rem;
   }
 
   #immersegt-previews {
@@ -329,10 +323,8 @@ body {
   }
 
   #immersegt-previews img {
-    width: 25rem;
-    height: auto;
-    object-fit: contain;
-    border-radius: 1.5rem;
+    width: auto;
+    height: 12rem;
   }
 
   #soccertwos-previews {
@@ -346,8 +338,6 @@ body {
   #soccertwos-previews video {
     width: 25rem;
     height: auto;
-    object-fit: contain;
-    border-radius: 1.5rem;
   }
 
   #archthesis-previews {
@@ -361,8 +351,6 @@ body {
   #archthesis-previews img {
     width: 25rem;
     height: auto;
-    object-fit: contain;
-    border-radius: 1.5rem;
   }
 
 
