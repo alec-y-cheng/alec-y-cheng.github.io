@@ -48,9 +48,9 @@ body {
     }
 
     .intro-top img {
-      width: 5rem;
+      width: 6rem;
       border-radius: 2rem;
-      margin-right: 1rem;
+      margin-right: 0.6rem;
       margin-left: 1rem;
       opacity: 0.9;
       
@@ -203,6 +203,10 @@ body {
     pointer-events: auto;
   }
 
+  .panel-content h3 {
+    margin-bottom: 0.8rem; /* project title */
+  }
+
   .panel-content h4 {
     margin-bottom: 0; /* semester */
   }
@@ -211,6 +215,71 @@ body {
     margin-top: 0.25rem;
     opacity: 0.8;
   }
+
+  /* ---------------------  skill tags portion --------------------- */
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0rem 0 0.6rem;
+  }
+
+  .skill-tag {
+    padding: 0.15rem 0.5rem;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.3;
+    white-space: nowrap;
+  }
+
+  .skill-python {
+    color: #f4c95d;
+    background-color: rgba(244, 201, 93, 0.12);
+  }
+
+  .skill-ml {
+    color: #73d2a6;
+    background-color: rgba(115, 210, 166, 0.12);
+  }
+
+  .skill-cv {
+    color: #72b7e2;
+    background-color: rgba(114, 183, 226, 0.12);
+  }
+
+  .skill-pytorch {
+    color: #f28b74;
+    background-color: rgba(242, 139, 116, 0.12);
+  }
+
+  .skill-rhino {
+    color: #c6a0e8;
+    background-color: rgba(198, 160, 232, 0.12);
+  }
+
+  .skill-gis {
+    color: #25e0ea;
+    background-color: rgba(198, 160, 232, 0.12);
+  }
+
+  .skill-modeling {
+    color: #dd2727;
+    background-color: rgba(198, 160, 232, 0.12);
+  }
+
+  .skill-arch {
+    color: #f7faff;
+    background-color: rgba(198, 160, 232, 0.12);
+  }
+
+  .skill-writing {
+    color: #a7832f;
+    background-color: rgba(198, 160, 232, 0.12);
+  }
+
+  /* ----------------------- right panel content portion -----------------------------*/
 
   .panel-content > section {
     max-width: 100%;
@@ -349,8 +418,8 @@ body {
   }
 
   #archthesis-previews img {
-    width: 25rem;
-    height: auto;
+    width: auto;
+    height: 10rem;
   }
 
 
@@ -362,6 +431,10 @@ body {
 
   #about-section a{
     color: #daf2e2;
+  }
+
+  #about-section a:hover {
+    color: #FFF;
   }
 
 
