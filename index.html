@@ -16,11 +16,20 @@
   </head>
   <body>
     <header>
-      <label class="switch">
-        <input type="checkbox" aria-label="Toggle sandbox mode" />
+      <label class="switch" for="toggle">
         <span class="slider"></span>
+        <input type="checkbox" id="toggle" aria-label="Toggle sandbox mode" />
         <p id="hidden-hint">CLICK ME!</p>
       </label>
+      <div class="toggle-page">
+        <!---- iFrame here ----->
+        <iframe
+          id="sandbox-website"
+          src=""
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
       <div class="intro-top">
         <div class="name-block">
           <h1 id="big-name">— Alec Cheng—</h1>
@@ -673,6 +682,23 @@
 
       rightPanel.querySelectorAll("video").forEach((video) => {
         video.addEventListener("loadedmetadata", updatePanelFit);
+      });
+
+      <!--- add toggle page logic  ---->
+      const toggle = document.getElementById("toggle");
+      const overlay = document.getElementById("toggle-page");
+      const iframe = document.getElementById("sandbox-website");
+
+      const targetUrl = "https://alec-y-cheng.github.io/alecsandbox/";
+
+      toggle.addEventListener("change", function () {
+        if (this.checked) {
+          overlay.classList.add("active");
+
+          iframe.src = targetUrl;
+        } else {
+          overlay.classList.remove("active");
+        }
       });
     </script>
   </body>

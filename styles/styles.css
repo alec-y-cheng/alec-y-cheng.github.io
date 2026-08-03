@@ -70,6 +70,31 @@ body {
     transform: translateX(1.57rem);
   }
 
+  /* ----- switch websites ------ */ 
+  .toggle-page {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    z-index: 9999;
+
+    transform: translateX(100%);
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .toggle-page.active {
+    transform: translateX(0);
+  }
+
+  .toggle-page iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+
   /* ----- intro ----- */
 
   .intro-top {
