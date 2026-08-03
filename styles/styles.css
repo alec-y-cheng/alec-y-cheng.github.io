@@ -17,14 +17,16 @@ body {
     display: inline-block;
     width: 3rem;
     height: 1.4rem;
+    z-index: 10000;
   }
 
   #hidden-hint{
     position: absolute;
     bottom: 1rem;
-    right: 2rem;
+    right: 1.7rem;
     font-size: 0.6rem;
-    display:none;
+    white-space: nowrap;
+    display: none;
   }
 
   .switch input{
@@ -33,17 +35,14 @@ body {
     height: 0;
   }
 
-  .slider:hover + #hidden-hint {
+  .switch:hover #hidden-hint {
     display:block;
   }
 
   .slider {
     position: absolute;
     cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 0; left: 0; right: 0; bottom: 0;
     background-color: #ccc;
     transition: .3s;
     border-radius: 1rem;
@@ -62,11 +61,11 @@ body {
     opacity:100%;
   }
 
-  input:checked + .slider {
+  input:checked ~ .slider {
     background-color: #ff9b0e;
   }
 
-  input:checked + .slider:before {
+  input:checked ~ .slider:before {
     transform: translateX(1.57rem);
   }
 
@@ -93,7 +92,6 @@ body {
     height: 100%;
     border: none;
   }
-
 
   /* ----- intro ----- */
 

@@ -17,11 +17,11 @@
   <body>
     <header>
       <label class="switch" for="toggle">
-        <span class="slider"></span>
         <input type="checkbox" id="toggle" aria-label="Toggle sandbox mode" />
+        <span class="slider"></span>
         <p id="hidden-hint">CLICK ME!</p>
       </label>
-      <div class="toggle-page">
+      <div id="toggle-page">
         <!---- iFrame here ----->
         <iframe
           id="sandbox-website"
@@ -684,7 +684,7 @@
         video.addEventListener("loadedmetadata", updatePanelFit);
       });
 
-      <!--- add toggle page logic  ---->
+      // add toggle logic
       const toggle = document.getElementById("toggle");
       const overlay = document.getElementById("toggle-page");
       const iframe = document.getElementById("sandbox-website");
@@ -693,9 +693,12 @@
 
       toggle.addEventListener("change", function () {
         if (this.checked) {
-          overlay.classList.add("active");
+          // refers to 'checked box'
+          overlay.classList.add("active"); //find HTML element with ID toggle-page, append 'active' to it (control func in css)
 
-          iframe.src = targetUrl;
+          if (!iframe.src) {
+            iframe.src = targetUrl; // if statement to keep it from hard reloading
+          }
         } else {
           overlay.classList.remove("active");
         }
