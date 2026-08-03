@@ -557,7 +557,7 @@
       </div>
     </main>
 
-    <div id="toggle-page">
+    <div class="toggle-page" id="toggle-page">
       <!---- iFrame here ----->
       <iframe
         id="sandbox-website"
@@ -689,24 +689,32 @@
       const toggle = document.getElementById("toggle");
       const overlay = document.getElementById("toggle-page");
       const iframe = document.getElementById("sandbox-website");
-      const targetUrl = "https://alec-y-cheng.github.io/alecsandbox/";
+      const targetUrl = "https://alec-y-cheng.github.io/alecsandbox";
+
+      let iframeClearTimer = null;
 
       toggle.addEventListener("change", function () {
         if (this.checked) {
-          // refers to 'checked box'
-          overlay.classList.add("active"); //find HTML element with ID toggle-page, append 'active' to it (control func in css)
+          // 1. Instantly fire the slide overlay animation onto the viewport
+          if (iframeClearTimer) {
+            clearTimeout(iframeClearTimer);
+          }
+          overlay.classList.add("active");
 
-          setTimeout(() => {
-            if (!iframe.src || iframe.src === "about:blank") {
-              iframe.src = targetUrl;
-            }
-          }, 200);
+          // 2. FORCE BROWSER PRIORITIZATION: Tells the engine to ignore animation pauses
+          iframe.loading = "eager";
+
+          // 3. Unconditionally set the source to start rendering on click frame 1
+          if (iframe.src !== targetUrl) {
+            iframe.src = targetUrl;
+          }
         } else {
           overlay.classList.remove("active");
 
-          setTimeout(() => {
+          // Smoothly wipe memory blocks 600ms after the slide animation drops out of sight
+          iframeClearTimer = setTimeout(() => {
             iframe.src = "about:blank";
-          });
+          }, 600);
         }
       });
     </script>
