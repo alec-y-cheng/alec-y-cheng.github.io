@@ -21,15 +21,6 @@
         <span class="slider"></span>
         <p id="hidden-hint">CLICK ME!</p>
       </label>
-      <div id="toggle-page">
-        <!---- iFrame here ----->
-        <iframe
-          id="sandbox-website"
-          src=""
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
-      </div>
       <div class="intro-top">
         <div class="name-block">
           <h1 id="big-name">— Alec Cheng—</h1>
@@ -51,7 +42,7 @@
             ><img src="icons/gmail.svg" alt="Gmail"
           /></a>
           <a href="assets/Alec_Cheng_Resume_0605.pdf" target="_blank"
-            ><img src="icons/resume.png" alt="Gmail"
+            ><img src="icons/resume.png" alt="resume"
           /></a>
         </div>
       </div>
@@ -566,6 +557,16 @@
       </div>
     </main>
 
+    <div id="toggle-page">
+      <!---- iFrame here ----->
+      <iframe
+        id="sandbox-website"
+        src=""
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+
     <!-- Hidden section -->
     <div id="hidden-sections" style="display: none">
       <section id="about-section">
@@ -688,7 +689,6 @@
       const toggle = document.getElementById("toggle");
       const overlay = document.getElementById("toggle-page");
       const iframe = document.getElementById("sandbox-website");
-
       const targetUrl = "https://alec-y-cheng.github.io/alecsandbox/";
 
       toggle.addEventListener("change", function () {
@@ -696,11 +696,17 @@
           // refers to 'checked box'
           overlay.classList.add("active"); //find HTML element with ID toggle-page, append 'active' to it (control func in css)
 
-          if (!iframe.src) {
-            iframe.src = targetUrl; // if statement to keep it from hard reloading
-          }
+          setTimeout(() => {
+            if (!iframe.src || iframe.src === "about:blank") {
+              iframe.src = targetUrl;
+            }
+          }, 200);
         } else {
           overlay.classList.remove("active");
+
+          setTimeout(() => {
+            iframe.src = "about:blank";
+          });
         }
       });
     </script>
